@@ -32,4 +32,4 @@ You have to use the so called BEM methodology to style your project. Here’s [t
 
 ## Choose one assignment
 
-[] Checkbox?
+- [ ] Checkbox?
