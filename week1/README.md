@@ -3,7 +3,7 @@
 1. Be inspired by Vitaly Friedman.
 2. Pick an assignment
 3. Understand your CSS methodology
-4. Read an article
+4. Read and explain articles
 5. Work!
 
 ## Tuesday
@@ -35,7 +35,7 @@ What did you learn? What’s your plan? Where are the challenges?
 
 ## Thursday
 
-We start with [The Weekly Stylesheet](wss.md). Be on time!
+**!important:** We start with [The Weekly Stylesheet](weekly-stylesheet.md). Be on time!
 
 The rest of the day:
 
