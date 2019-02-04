@@ -32,4 +32,20 @@ You have to use the so called BEM methodology to style your project. Here’s [t
 
 ## Choose one assignment
 
-- [ ] Checkbox?
+- ( ) Interactive email
+- ( ) Responsive restauraunt menu
+- ( ) Print stylesheet for a magazine 
+- ( ) Magazine Layout with dark mode/light mode
+- ( ) A random grid layout (based on the time of day) with random shapes done with SVG
+
+## Choose one or two restrictions
+
+- [ ] Two colours
+- [ ] Less than 5kb CSS
+- [ ] No squares, no rectangles, no circles, no triangles
+- [ ] Solar powered website
+- [ ] Responsive without media queries
+- [ ] Design responds to weather
+- [ ] Design responds to battery level
+- [ ] Design responds to language setting
+
