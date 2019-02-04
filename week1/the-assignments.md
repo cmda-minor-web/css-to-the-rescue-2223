@@ -4,7 +4,7 @@ All the information about the assignments can be found here.
 
 ## The assigned CSS Methodologies
 
-You _have_ to work with the CSS methodology assigned to you. Which means you have to study its powers and shortcomings. Here are the different methodologies with your name below one.
+You _have_ to work with the CSS methodology assigned to you. Which means you have to study its powers and shortcomings. Here are the different methodologies with your name below one. *(Yes, your name is below one, just click on them :-)*
 
 <details>
 <summary><strong>No IDs, no classes</strong></summary>
