@@ -28,7 +28,7 @@ What did you learn? What’s your plan? Where are the challenges?
 
 ## Thursday
 
-**!important:** We start with [The Weekly Stylesheet](weekly-stylesheet.md). Be on time!
+**!important:** We start with [The Weekly Specificity](weekly-specificity.md). Be on time!
 
 The rest of the day:
 

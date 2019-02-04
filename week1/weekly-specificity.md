@@ -1,4 +1,4 @@
-# The Weekly Stylesheet
+# The Weekly Specificity
 
 Every week you will read one or two articles. During class we will Workshop around the articles you have read.
 
