@@ -30,24 +30,19 @@ _Daniel, Dennis, Folkert-Jan, Jeroen, Jim, Joost, Leonie, Marcel, May, Mitch, Na
 You have to use the so called BEM methodology to style your project. Here’s [the website with all information about BEM](http://getbem.com/)
 </details>
 
-<form>
-<fieldset>
-<legend>Choose one assignment</legend>
-<label><input type="radio" name="assignment"> Interactive email</label><br>
-<label><input type="radio" name="assignment"> Responsive restauraunt menu</label><br>
-<label><input type="radio" name="assignment"> Print stylesheet for a magazine </label><br>
-<label><input type="radio" name="assignment"> Magazine Layout with dark mode/light mode</label><br>
-<label><input type="radio" name="assignment"> A random grid layout (based on the time of day) with random shapes done with SVG</label><br>
-</fieldset>
-<fieldset>
-<legend>Choose two restrictions</legend>
-<label><input type="checkbox"> Two colours</label><br>
-<label><input type="checkbox"> Less than 5kb CSS</label><br>
-<label><input type="checkbox"> No squares, no rectangles, no circles, no triangles</label><br>
-<label><input type="checkbox"> Solar powered website</label><br>
-<label><input type="checkbox"> Responsive without media queries</label><br>
-<label><input type="checkbox"> Design responds to weather</label><br>
-<label><input type="checkbox"> Design responds to battery level</label><br>
-<label><input type="checkbox"> Design responds to language setting</label><br>
-</fieldset>
-</form>
+## Choose one assignment</legend>
+- ( ) Interactive email
+- ( ) Responsive restauraunt menu
+- ( ) Print stylesheet for a magazine 
+- ( ) Magazine Layout with dark mode/light mode
+- ( ) A random grid layout (based on the time of day) with random shapes done with SVG
+
+## Choose two restrictions
+- [ ] Two colours
+- [ ] Less than 5kb CSS
+- [ ] No squares, no rectangles, no circles, no triangles
+- [ ] Solar powered website
+- [ ] Responsive without media queries
+- [ ] Design responds to weather
+- [ ] Design responds to battery level
+- [ ] Design responds to language setting
