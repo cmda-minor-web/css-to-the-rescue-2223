@@ -7,7 +7,7 @@ All the information about the assignments can be found here.
 You _have_ to work with the CSS methodology assigned to you. Which means you have to study its powers and shortcomings. Here are the different methodologies with your name below one.
 
 <details>
-<summary><h3>No IDs, no classes</h3></summary>
+<summary><strong>No IDs, no classes</strong></summary>
 
 _Maikel vV, Bas, Annabel, Arash, Charlotte, Jesper, Justine, Koen, Max, Melissa, Robin H, Stan, Stijn, Tjebbe, Loc:_
 
