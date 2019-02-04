@@ -16,6 +16,8 @@ In this three week course you are going to create an innovative, pleasurable use
 
 ### Week 1 - 👁 C what you did there
 
+(See all the details of week 1 here)[week1].
+
 Goals of this week: 
 
 - Be inspired
