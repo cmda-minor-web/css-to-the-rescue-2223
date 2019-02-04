@@ -11,7 +11,7 @@ You _have_ to work with the CSS methodology assigned to you. Which means you hav
 
 _Maikel vV, Bas, Annabel, Arash, Charlotte, Jesper, Justine, Koen, Max, Melissa, Robin H, Stan, Stijn, Tjebbe, Loc:_
 
-You may not use the `.class` selector and the `#id` selector. Don’t worry though, you may use *all* other CSS *selectors and combinators*.
+You may not use the `.class` or `#id` selectors. Don’t worry though, you may use *all* other CSS *selectors and combinators*.
 </details>
 
 <details>
@@ -19,7 +19,7 @@ You may not use the `.class` selector and the `#id` selector. Don’t worry thou
 
 _Chelsea, Deanna, Dorus, Guus, Jesse, Joop, Karin, Maikel S, Martijn, Menno, Monika, Peppe-Quint, Sterre, Tim F, Wouter:_
 
-You have to use the so called SMACSS methodology to style your project.
+You have to use the so called SMACSS methodology to style your project. You can [find all information about SMACSS here](https://smacss.com/)
 </details>
 
 <details>
@@ -27,5 +27,5 @@ You have to use the so called SMACSS methodology to style your project.
 
 _Daniel, Dennis, Folkert-Jan, Jeroen, Jim, Joost, Leonie, Marcel, May, Mitch, Nathan, Robin S, Steven, Tim R, Zekkie:_
 
-You have to use the so called BEM methodology to style your project.
+You have to use the so called BEM methodology to style your project. Here’s [the website with all information about BEM](http://getbem.com/)
 </details>
