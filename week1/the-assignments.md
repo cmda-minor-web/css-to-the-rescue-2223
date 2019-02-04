@@ -32,7 +32,7 @@ You have to use the so called BEM methodology to style your project. Here’s [t
 
 ## Choose one assignment
 
-- ( ) Interactive email
+- (x) Interactive email
 - ( ) Responsive restauraunt menu
 - ( ) Print stylesheet for a magazine 
 - ( ) Magazine Layout with dark mode/light mode
@@ -40,7 +40,7 @@ You have to use the so called BEM methodology to style your project. Here’s [t
 
 ## Choose one or two restrictions
 
-- [ ] Two colours
+- [x] Two colours
 - [ ] Less than 5kb CSS
 - [ ] No squares, no rectangles, no circles, no triangles
 - [ ] Solar powered website
