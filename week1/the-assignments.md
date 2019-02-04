@@ -32,7 +32,7 @@ You have to use the so called BEM methodology to style your project. Here’s [t
 
 ## Choose one assignment</legend>
 - ( ) Interactive email [Read all about it](https://tedgoas.github.io/Cerberus/)
-- ( ) Responsive restauraunt menu [Here’s the raw HTML](../assignments/menu.html)
+- ( ) Responsive restauraunt menu [Here’s some raw HTML you may use](../assignments/menu.html)
 - ( ) Print stylesheet for a magazine [Here’s some example HTML](../assignments/print-article.html)
 - ( ) Magazine Layout with dark mode/light mode [Here’s some example HTML](../assignments/print-article.html)
 - ( ) A random grid layout (based on the time of day) with random shapes done with SVG. [You are on your own here…](https://duckduckgo.com/?q=%22A+random+grid+layout+(based+on+the+time+of+day)+with+random+shapes+done+with+SVG%22&t=ffab&ia=web)
