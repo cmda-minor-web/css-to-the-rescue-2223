@@ -35,7 +35,7 @@ You have to use the so called BEM methodology to style your project. Here’s [t
 - ( ) Responsive restauraunt menu [Here’s the raw HTML](../assignments/menu.html)
 - ( ) Print stylesheet for a magazine [Here’s some example HTML](../assignments/print-article.html)
 - ( ) Magazine Layout with dark mode/light mode [Here’s some example HTML](../assignments/print-article.html)
-- ( ) A random grid layout (based on the time of day) with random shapes done with SVG
+- ( ) A random grid layout (based on the time of day) with random shapes done with SVG. [You are on your own here…](https://duckduckgo.com/?q=%22A+random+grid+layout+(based+on+the+time+of+day)+with+random+shapes+done+with+SVG%22&t=ffab&ia=web)
 
 ## Choose two restrictions
 - [ ] Two colours
