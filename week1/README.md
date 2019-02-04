@@ -16,14 +16,7 @@ Bring a sketch book. Take (sketch)notes!
 
 ### Explaining the assignments
 
-A short explanation of how things work these weeks with:
-
-- Assigned methodologies
-- Assignments
-- Constraints
-- Learning goals
-
-Pick an assignment.
+[All you need to know about the assignments can be found here](the-assignments.md)
 
 ### Sketching
 
