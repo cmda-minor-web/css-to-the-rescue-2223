@@ -1,6 +1,6 @@
 # The Weekly Specificity
 
-Every week you will read one or two articles. During class we will Workshop around the articles you have read.
+Every week you will read one or two articles. During class we will organise a workshop around the articles you have read.
 
 Each group reads two articles, and takes proper (sketch) notes
 
