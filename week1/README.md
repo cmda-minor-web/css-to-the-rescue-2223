@@ -1,4 +1,4 @@
-# Week 1
+# Week 1 - 👁 C what you did there
 
 1. Be inspired by Vitaly Friedman.
 2. Pick an assignment

@@ -29,3 +29,7 @@ _Daniel, Dennis, Folkert-Jan, Jeroen, Jim, Joost, Leonie, Marcel, May, Mitch, Na
 
 You have to use the so called BEM methodology to style your project. Here’s [the website with all information about BEM](http://getbem.com/)
 </details>
+
+## Choose one assignment
+
+[ ] Checkbox?
