@@ -33,8 +33,8 @@ You have to use the so called BEM methodology to style your project. Here’s [t
 ## Choose one assignment</legend>
 - ( ) Interactive email [Read all about it](https://tedgoas.github.io/Cerberus/)
 - ( ) Responsive restauraunt menu [Here’s the raw HTML](../assignments/menu.html)
-- ( ) Print stylesheet for a magazine 
-- ( ) Magazine Layout with dark mode/light mode
+- ( ) Print stylesheet for a magazine [Here’s some example HTML](../assignments/print-article.html)
+- ( ) Magazine Layout with dark mode/light mode [Here’s some example HTML](../assignments/print-article.html)
 - ( ) A random grid layout (based on the time of day) with random shapes done with SVG
 
 ## Choose two restrictions
