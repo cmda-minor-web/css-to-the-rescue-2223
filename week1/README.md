@@ -14,6 +14,9 @@ Hi!
 
 Bring a sketch book. Take (sketch)notes!
 
+- **Update:** [Vitaly’s slides](https://t.co/Jeq2nZgtu5?amp=1)
+- **Update:** [Introduction slides](https://docs.google.com/presentation/d/1ir5yUsPJ0r9ibbD-h81pYEtqZxrUVx1yufmAfT_ZK_c/edit?usp=sharing)
+
 ### Explaining the assignments
 
 [All you need to know about the assignments can be found here](the-assignments.md)
