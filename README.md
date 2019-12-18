@@ -1,4 +1,4 @@
-# CSS to the Rescue @cmda-minor-web 18-19
+# CSS to the Rescue @cmda-minor-web 19-20
 
 _This course is in English_
 
