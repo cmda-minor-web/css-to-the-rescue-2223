@@ -6,7 +6,7 @@ On this page we explain the assignments, the contexts, the restrictions and the 
 
 ## Choose one assignment
 
-Choose _one) of these assignments.
+Choose _one_ of these assignments.
 
 - ( ) Responsive restauraunt menu [Here’s some raw HTML you may use](../assignments/menu.html)
 - ( ) One art directed responsive web page for a magazine on the web. [Here’s some example HTML](../assignments/print-article.html)
