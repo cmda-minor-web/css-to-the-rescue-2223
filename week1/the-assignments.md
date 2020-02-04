@@ -2,33 +2,9 @@
 
 All the information about the assignments can be found here.
 
-## The assigned CSS Methodologies
+## The *Selector First* CSS Methodology
 
-You _have_ to work with the CSS methodology assigned to you. Which means you have to study its powers and shortcomings. Here are the different methodologies with your name below one. *(Yes, your name is below one, just click on them :-)*
-
-<details>
-<summary><strong>No IDs, no classes</strong></summary>
-
-_Maikel vV, Bas, Annabel, Arash, Charlotte, Jesper, Justine, Koen, Max, Melissa, Robin H, Stan, Stijn, Tjebbe, Loc:_
-
-You may not use the `.class` or `#id` selectors. Don’t worry though, you may use [*all* other CSS *selectors and combinators*](https://css-tricks.com/almanac/selectors/). 
-</details>
-
-<details>
-<summary><strong>SMACSS</strong></summary>
-
-_Chelsea, Deanna, Dorus, Guus, Jesse, Joop, Karin, Maikel S, Martijn, Menno, Monika, Peppe-Quint, Sterre, Tim F, Wouter:_
-
-You have to use the so called SMACSS methodology to style your project. You can [find all information about SMACSS here](https://smacss.com/)
-</details>
-
-<details>
-<summary><strong>BEM</strong></summary>
-
-_Daniel, Dennis, Folkert-Jan, Jeroen, Jim, Joost, Leonie, Marcel, May, Mitch, Nathan, Robin S, Steven, Tim R, Zekkie:_
-
-You have to use the so called BEM methodology to style your project. Here’s [the website with all information about BEM](http://getbem.com/)
-</details>
+You _have_ to work with the so called *Selector First* CSS Methodology. This means that you _have to_ use a wide variety of CSS selectors. ID’s are only allowed to trigger the `:target` selector. If you really need them, you are allowed to use a few classes. In order to differentiate between 
 
 ## Choose one assignment</legend>
 - ( ) Interactive email [Read all about it](https://tedgoas.github.io/Cerberus/)
