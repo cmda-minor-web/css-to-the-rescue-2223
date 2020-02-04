@@ -2,7 +2,7 @@
 
 _This course is in English_
 
-In this three week course you are going to create an innovative, pleasurable user experience by using CSS.
+In this three week course you are going to create an innovative, experimantal, yet pleasurable user experience by using CSS and SVG. No Javascrpt allowed.
 
 ## Learning goals
 - _You understand the broader scope of CSS: You can show that CSS can be used for more than just styling web pages._
@@ -21,7 +21,7 @@ In this three week course you are going to create an innovative, pleasurable use
 Goals of this week: 
 
 - Be inspired
-- Understand the cascade, inheritance and specificity
+- Discuss hot CSS topics.
 - Get going!
 
 <!-- [Opdrachten](https://drive.google.com/open?id=1OVhWQNaCgSluYviTKKWcApkyPd23xow1PiExb8GYANM) -->
@@ -30,7 +30,7 @@ Goals of this week:
 
 ### Week 2 - Create Stuff, 🙃 Smile 
 
-This week’s goals: Create stuff, break stuff, and learn from each other
+This week’s goals: Moar inspiration, create stuff, break stuff, and learn from each other.
 
 <!-- [Opdrachten](https://drive.google.com/open?id=1GMDTdW3LycAYpZSFI6gk_lrKrx8-zLWrNh69aaVEH5Y) -->
 
@@ -38,7 +38,7 @@ This week’s goals: Create stuff, break stuff, and learn from each other
 
 ### Week 3 - 🎪 Show time
 
-Goals: Blow us away
+Goals: Blow us away.
 
 <!-- [Opdrachten](https://drive.google.com/open?id=13pKQu72pshaEzKw9q5JHLa-aop85nMP6nDCdqioWjoQ) -->
 
