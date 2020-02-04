@@ -10,7 +10,7 @@ You _have_ to work with the so called *Selector First* CSS Methodology. This mea
 
 - ( ) Interactive email [Read all about it](https://tedgoas.github.io/Cerberus/)
 - ( ) Responsive restauraunt menu [Here’s some raw HTML you may use](../assignments/menu.html)
-- ( ) One magazine page, optimised for different contexts[^contexts] [Here’s some example HTML](../assignments/print-article.html)
+- ( ) One magazine page, optimised for different contexts <sup>1</sup> [Here’s some example HTML](../assignments/print-article.html)
 - ( ) A random grid layout (based on the time of day) with random shapes done with SVG. [You are on your own here…](https://duckduckgo.com/?q=%22A+random+grid+layout+(based+on+the+time+of+day)+with+random+shapes+done+with+SVG%22&t=ffab&ia=web)
 
 _You can use the provided content and HTML, or you can create your own. Of course you are allowed to change the HTML when needed._
@@ -25,4 +25,4 @@ _You can use the provided content and HTML, or you can create your own. Of cours
 - [ ] Design responds to battery level
 - [ ] Design responds to language setting
 
-[^contexts]: Pick two of these possible extra contexts: print-stylesheet, prefers-reduced-motion, dark-mode theming.
+1. _Pick two of these possible extra contexts: print-stylesheet, prefers-reduced-motion, dark-mode theming._
