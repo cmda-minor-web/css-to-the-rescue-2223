@@ -31,7 +31,7 @@ h2 {
   font-size: 2em;
   margin-top: 1.5em;
 }
-ul {
+.gallery {
   display: flex;
   /flex-wrap: wrap;
   justify-content: space-between;
@@ -39,13 +39,13 @@ ul {
   padding: 0;
   margin: 0 -1rem;
 }
-ul li {
+.gallery li {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 1rem;
 }
-ul img {
+.gallery img {
   border: 2px solid var(--light);
   margin-top: 2em;
   margin-bottom: 2em;
