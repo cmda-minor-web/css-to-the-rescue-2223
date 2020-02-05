@@ -12,7 +12,7 @@ Hi!
 
 ### Inspirational introduction: “Let’s Break The Web!”
 
-Here are the slides of the presentations that Vasilis and Vitaly gave on Wednesday the 5th of February 2020
+Here are the slides of the presentations that we gave on Wednesday the 5th of February 2020
 
 - [Vitaly’s slides](https://www.dropbox.com/s/p8mi1rl2eqc423p/personality-ams-2020.pdf?dl=0)
 - [Introduction slides]()
