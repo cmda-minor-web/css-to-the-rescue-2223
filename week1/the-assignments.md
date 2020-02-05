@@ -14,14 +14,14 @@ Choose _one_ of these assignments.
 
 _You can use the provided content and HTML, or you can create your own. Of course you are allowed to change the HTML when needed._
 
-## Add _two_ contexts
+## Add _one_ contexts
 
-You have to add two extra contexts to your site
+You have to add at least one extra context to your site
 
 - [ ] print-stylesheet
 - [ ] prefers-reduced-motion
 - [ ] dark-mode
-- [ ] input type
+- [ ] input type (pointer)
 - [ ] <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">pick a better one</a>
 
 ## Pick two restrictions
