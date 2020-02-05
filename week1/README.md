@@ -12,10 +12,10 @@ Hi!
 
 ### Inspirational introduction: “Let’s Break The Web!”
 
-Bring a sketch book. Take (sketch)notes!
+Here are the slides of the presentations that Vasilis and Vitaly gave on Wednesday the 5th of February 2020
 
-- **Update:** [Vitaly’s slides](https://t.co/Jeq2nZgtu5?amp=1)
-- **Update:** [Introduction slides](https://docs.google.com/presentation/d/1ir5yUsPJ0r9ibbD-h81pYEtqZxrUVx1yufmAfT_ZK_c/edit?usp=sharing)
+- [Vitaly’s slides](https://www.dropbox.com/s/p8mi1rl2eqc423p/personality-ams-2020.pdf?dl=0)
+- [Introduction slides]()
 
 ### Explaining the assignments
 
