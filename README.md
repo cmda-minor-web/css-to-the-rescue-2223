@@ -4,9 +4,9 @@
 
 In this three week course you are going to create an innovative, experimantal, yet pleasurable user experience by using vanilla CSS. No frameworks, libraries and Javascript allowed.
 
-##Dingen om vooraf te doen
+## Dingen om vooraf te doen
 - Fork deze repository
-- [Enroll je voor de minor via de courselector](https://icthva.sharepoint.com/sites/courseselector#/CourseSelector/web-design-and-development/2020-2021) (dan kun je je werk straks ook op DLO opleveren)
+- [Enroll je voor de minor via de courselector](https://icthva.sharepoint.com/sites/courseselector#/CourseSelector/web-design-and-development/2020-2021) (dan kun je je werk straks ook op [DLO](https://dlo.mijnhva.nl/d2l/home/275640) opleveren)
 
 - Bekijk het programma en de kennismakingsoefening alvast even
 
