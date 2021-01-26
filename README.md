@@ -20,8 +20,6 @@ In this three week course you are going to create an innovative, experimantal, y
 
 Goals of this week: 
 
-
-// testje @shooft look at issue #
 - Be inspired!
 - Discuss hot CSS topics.
 - Get going!
