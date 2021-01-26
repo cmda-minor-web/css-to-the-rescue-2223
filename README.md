@@ -12,7 +12,7 @@ In this three week course you are going to create an innovative, experimantal, y
 
 [Rubric](https://docs.google.com/spreadsheets/d/1Xv48MSiACNmnM6nXpGGUb8mJDC459uSaxJszO_zLEp8/edit?usp=sharing)
 
-## Programm
+## Programma
 
 ### Week 1 - 👁 C what you did there
 
