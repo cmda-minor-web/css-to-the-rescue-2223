@@ -1,6 +1,6 @@
 # CSS to the Rescue @cmda-minor-web 2020 - 2021
 
-_This course is in English_
+~~This course is in English~~
 
 In this three week course you are going to create an innovative, experimantal, yet pleasurable user experience by using CSS and SVG. No Javascrpt allowed.
 
