@@ -7,7 +7,7 @@ In this three week course you are going to create an innovative, experimantal, y
 ## Dingen om vooraf te doen
 - Fork deze repository
 - [Enroll je voor de minor via de courselector](https://icthva.sharepoint.com/sites/courseselector#/CourseSelector/web-design-and-development/2020-2021) (dan kun je je werk straks ook op [DLO](https://dlo.mijnhva.nl/d2l/home/275640) opleveren)
-
+- Camera's aan tijdens lessen en co (zorg dat je webcam werkt)
 - Bekijk het programma en de kennismakingsoefening alvast even
 
 ## Learning goals
