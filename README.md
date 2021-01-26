@@ -20,7 +20,7 @@ In this three week course you are going to create an innovative, experimantal, y
 
 Goals of this week: 
 
-- Be inspired!
+- Be inspired!!!!
 - Discuss hot CSS topics.
 - Get going!
 
