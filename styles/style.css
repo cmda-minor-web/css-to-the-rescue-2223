@@ -13,8 +13,6 @@ body {
   --sannes-blue:#1b75b3;
   --hoofdKleur:#37332f;
   --achtergrondKleur:#e1ddd9;
-  --achtergrondKleur90:white;
-  --middenkleur:#b4aaa0;
   --linkKleur:var(--sannes-blue);
   --linkVisited:#8040bf;
   --linkActive:crimson;
