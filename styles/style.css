@@ -4,9 +4,9 @@
 
 html, body {
   position: relative;
-  height:100vh;
+  min-height:100vh;
   margin: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 body {
@@ -234,7 +234,7 @@ main {
 body > div.bullet {
   --width:1;
   --height:1;
-  position: absolute;
+  position: fixed;
   width: calc(var(--width) * 1em);
   height: calc(var(--height) * 1em);
   left: calc(var(--posx) * 1px - var(--width) * 0.5em + var(--deltax) * -1em);
