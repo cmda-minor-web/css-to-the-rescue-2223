@@ -1,5 +1,6 @@
 var mousex;
 var mousey;
+var scrolly;
 var shooting;
 
 var deltaxBasis = 0;
@@ -134,7 +135,7 @@ function iniLinks(){
         bullet.style.setProperty("--draairichting", draairichting);
         bullet.style.setProperty("--duur", duur);
         bullet.style.setProperty("--posx", mousex);
-        bullet.style.setProperty("--posy", mousey);
+        bullet.style.setProperty("--posy", (mousey - scrolly));
 
         //verwijder bullet na animatie (uit beeld)
         bullet.addEventListener("animationend", verwijderBullet, {once: true});
@@ -161,7 +162,8 @@ function iniLinks(){
 		for(let eenLink of deLinks) {
 			function updatePositieMuis(event) {
 				mousex = event.pageX;
-				mousey = event.pageY;
+        mousey = event.pageY;
+        scrolly = document.body.scrollTop;
 			}
 			
 			eenLink.addEventListener("mouseover", (event) => {
