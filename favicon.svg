@@ -1,0 +1,9 @@
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		polygon { fill: #1b75bb; }
+		@media (prefers-color-scheme: dark) {
+			polygon { fill: #e48a44; }
+		}
+	</style>
+	<polygon points="4,4 124,4 64,64 124,124, 4,124 4,4"/>
+</svg>
