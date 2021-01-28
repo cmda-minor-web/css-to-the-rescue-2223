@@ -1,8 +1,6 @@
 # CSS to the Rescue @cmda-minor-web 2020 - 2021
 
-~~This course is in English~~
-
-In this three week course you are going to create an innovative, experimantal, yet pleasurable user experience by using vanilla CSS. No frameworks, libraries and Javascript allowed.
+CSS has grown up. Techniek is niet langer meer een bottleneck 🍾 bij het realiseren van ideeën. Integendeel, alle 'nieuwe' CSS lekkernijen 🧁 zijn meer en meer een insparatiebron ⛲. Zowel qua lay-out, typografie, effecten en bijv. steeds meer ook voor toegankelijkheid is de sky de limit. De nieuwe mogelijkheden druppelen 💧 langzaam door.
 
 ## Dingen om vooraf te doen
 - 🔱 Fork deze repository
