@@ -20,8 +20,8 @@
 
 ## Programma
 Het vak bestaat uit:
-- Een [kennismakingsoefening](oefening.html) en
-- De [eindopdracht](index.html)
+- Een [kennismakingsoefening](https://cmda-minor-web.github.io/css-to-the-rescue-2021/oefening.html) en
+- De [eindopdracht](https://cmda-minor-web.github.io/css-to-the-rescue-2021/index.html)
 
 ## Programma
 
