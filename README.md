@@ -10,18 +10,12 @@
 - 🎥 Camera's aan tijdens lessen en co (zorg dat je webcam werkt)
 - 📒 Bekijk het programma en de kennismakingsoefening alvast even
 
-## Learning goals
-- _You understand the broader scope of CSS: You can show that CSS can be used for more than just styling web pages._
-- _You understand the progressive enhancement parts of CSS: You can show that you can use the cascade, inheritance and specificity in your project_
-- _You understand the interactive parts of CSS: Is the UX fully enhanced within in given CSS scope?_
-- _You have been experimenting: Have the learning goals been stretched?_
-
-[Rubric](https://docs.google.com/spreadsheets/d/1Xv48MSiACNmnM6nXpGGUb8mJDC459uSaxJszO_zLEp8/edit?usp=sharing)
-
 ## Programma
 Het vak bestaat uit:
 - Een [kennismakingsoefening](https://cmda-minor-web.github.io/css-to-the-rescue-2021/oefening.html) en
 - De [eindopdracht](https://cmda-minor-web.github.io/css-to-the-rescue-2021/index.html)
+
+De [beoordelingscriteria voor de eindopdracht](https://cmda-minor-web.github.io/css-to-the-rescue-2021/beoordeligsformulier.html) op een rijte.
 
 ## Programma
 
@@ -73,3 +67,11 @@ Goals: Blow us away.
 <!-- Maybe a checklist of done stuff and stuff still on your wishlist? ✅ -->
 
 <!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
+
+## Learning goals
+- _You understand the broader scope of CSS: You can show that CSS can be used for more than just styling web pages._
+- _You understand the progressive enhancement parts of CSS: You can show that you can use the cascade, inheritance and specificity in your project_
+- _You understand the interactive parts of CSS: Is the UX fully enhanced within in given CSS scope?_
+- _You have been experimenting: Have the learning goals been stretched?_
+
+[Rubric](https://docs.google.com/spreadsheets/d/1Xv48MSiACNmnM6nXpGGUb8mJDC459uSaxJszO_zLEp8/edit?usp=sharing)
