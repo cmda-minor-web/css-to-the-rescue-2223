@@ -2,7 +2,7 @@
 
 **CSS has grown up**. Techniek is niet langer meer een bottleneck 🍾 bij het realiseren van ideeën. Integendeel, alle 'nieuwe' CSS lekkernijen 🧁 zijn meer en meer een **insparatiebron ⛲**. Zowel qua lay-out, typografie, animatie, effecten en bijv. steeds meer ook voor toegankelijkheid is de sky de limit. De nieuwe mogelijkheden druppelen 💧 langzaam door - maar dat kan **sneller 🏎**.
 
-**<div style="background-color:#b3b3b3;">**In dit vierweekse vak ga je experimenteren met (voor jou) nieuwe CSS technieken - om daarna/mee een innovatieve, experimentele én aangename ervaring te creëren - met vanilla CSS dus (frameworks, preprocessors, libraries en JS zijn niet toegestaan - nou vooruit een beetje JS).**
+**In dit vierweekse vak ga je experimenteren met (voor jou) nieuwe CSS technieken - om daarna/mee een innovatieve, experimentele én aangename ervaring te creëren - met vanilla CSS dus (frameworks, preprocessors, libraries en JS zijn niet toegestaan - nou vooruit een beetje JS).**
 
 ## Dingen om vooraf te doen
 - 🔱 Fork deze repository
