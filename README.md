@@ -5,10 +5,10 @@
 **In dit vierweekse vak ga je experimenteren met (voor jou) nieuwe CSS technieken - om daarna/mee een innovatieve, experimentele én aangename ervaring te creëren - met vanilla CSS dus (frameworks, preprocessors, libraries en JS zijn niet toegestaan - nou vooruit een beetje JS).**
 
 ## Dingen om vooraf te doen
-- 🔱 Fork deze repository
-- ✅ [Enroll je voor de minor via de courselector](https://icthva.sharepoint.com/sites/courseselector#/CourseSelector/web-design-and-development/2020-2021) (dan kun je je werk straks ook op [DLO](https://dlo.mijnhva.nl/d2l/home/275640) opleveren)
-- 🎥 Camera's aan tijdens lessen en co (zorg dat je webcam werkt)
-- 📒 Bekijk het programma en de kennismakingsoefening alvast even
+- 🔱 **Fork** deze repository
+- ✅ [**Enroll** je voor de minor via de courselector](https://icthva.sharepoint.com/sites/courseselector#/CourseSelector/web-design-and-development/2020-2021) (dan kun je je werk straks ook op [DLO](https://dlo.mijnhva.nl/d2l/home/275640) opleveren)
+- 🎥 **Camera's aan** tijdens lessen en co (zorg dat je webcam werkt)
+- 📒 **Bekijk** het programma en de kennismakingsoefening alvast even
 
 ## Programma
 Het vak bestaat uit:
