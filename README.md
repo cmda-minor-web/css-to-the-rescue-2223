@@ -15,7 +15,7 @@ Het vak bestaat uit:
 - Een [kennismakingsoefening](https://cmda-minor-web.github.io/css-to-the-rescue-2021/oefening.html) en
 - De [eindopdracht](https://cmda-minor-web.github.io/css-to-the-rescue-2021/index.html)
 
-De [beoordelingscriteria voor de eindopdracht](https://cmda-minor-web.github.io/css-to-the-rescue-2021/beoordeligsformulier.html) op een rijte.
+De [beoordelingscriteria voor de eindopdracht](https://cmda-minor-web.github.io/css-to-the-rescue-2021/beoordelingsformulier.html) op een rijte.
 
 ## Programma
 
