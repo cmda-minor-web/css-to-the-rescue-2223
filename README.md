@@ -19,6 +19,11 @@
 [Rubric](https://docs.google.com/spreadsheets/d/1Xv48MSiACNmnM6nXpGGUb8mJDC459uSaxJszO_zLEp8/edit?usp=sharing)
 
 ## Programma
+Het vak bestaat uit:
+- Een [kennismakingsoefening](oefening.html) en
+- De [eindopdracht](index.html)
+
+## Programma
 
 ### Week 1 - 👁 C what you did there
 
