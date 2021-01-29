@@ -32,4 +32,4 @@ Colleges, lessen en gesprekken vinden plaats [in Teams](https://teams.microsoft.
 - _You understand the interactive parts of CSS: Is the UX fully enhanced within in given CSS scope?_
 - _You have been experimenting: Have the learning goals been stretched?_
 
-[//](https://docs.google.com/spreadsheets/d/1Xv48MSiACNmnM6nXpGGUb8mJDC459uSaxJszO_zLEp8/edit?usp=sharing)
+[](https://docs.google.com/spreadsheets/d/1Xv48MSiACNmnM6nXpGGUb8mJDC459uSaxJszO_zLEp8/edit?usp=sharing)
