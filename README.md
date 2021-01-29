@@ -28,7 +28,7 @@ Colleges, lessen en gesprekken vinden plaats [in Teams](https://teams.microsoft.
 
 ## Learning goals
 - _You understand the broader scope of CSS: You can show that CSS can be used for more than just styling web pages._
-- _You understand the progressive enhancement parts of CSS: You can show that you can use the cascade, inheritance and specificity in your project_
+- ~~_You understand the progressive enhancement parts of CSS: You can show that you can use the cascade, inheritance and specificity in your project_~~
 - _You understand the interactive parts of CSS: Is the UX fully enhanced within in given CSS scope?_
 - _You have been experimenting: Have the learning goals been stretched?_
 
