@@ -40,6 +40,6 @@ Colleges, lessen en gesprekken vinden plaats [in Teams](https://teams.microsoft.
 [](https://docs.google.com/spreadsheets/d/1Xv48MSiACNmnM6nXpGGUb8mJDC459uSaxJszO_zLEp8/edit?usp=sharing)
 
 ## The Selector First CSS & No JS Methodology
-Het uitgangspunt is dat je geen ID's en classes gebruikt. Niet omdat ze niet nuttig zijn, maar om te oefenen met de [vele CSS selectoren](https://css-tricks.com/almanac/) die je tot je beschikking hebt. ID's mag je alleen gebruiken om de :target selector te triggeren. En als het echt echt echt niet anders kan, heb je permissie om een paar classes toe te voegen.
+Het eerste uitgangspunt is dat je geen ID's en classes gebruikt. Niet omdat ze niet nuttig zijn, maar om te oefenen met de [vele CSS selectoren](https://css-tricks.com/almanac/) die je tot je beschikking hebt. ID's mag je alleen gebruiken om de :target selector te triggeren. En als het echt echt echt niet anders kan, heb je permissie om een paar classes toe te voegen.
 
 Een tweede uitgangspunt is dat je geen JS gebruikt (i.i.g. zo min mogelijk). Wat met CSS kan mag je *niet* met JS realiseren en het is *niet* toegestaan om CSS properties met JS aan te passen. We vinden het daarentegen wel interessant dat je verkent waar JS en CSS elkaar raken/versterken, bijv. het uitlezen en aanpassen van CSS custom properties, of de animationstart, animationcancel, animationiteration genbruiken.
