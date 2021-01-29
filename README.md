@@ -25,6 +25,9 @@ Daar schrijf je je ook in voor themasessies en het eindgesprek.
 
 Colleges, lessen en gesprekken vinden plaats [in Teams](https://teams.microsoft.com/l/channel/19%3a84bbb4a3b90d40a6b434649359689744%40thread.tacv2/03%2520-%2520CSS%2520to%2520the%2520Rescue?groupId=5d001f9a-0a4b-4768-92b1-0f1768328ba3&tenantId=0907bb1e-21fc-476f-8843-02d09ceb59a7).
 
+## Docenten
+- Vasilis van Gemert
+- Sanne 't Hooft
 
 ## Learning goals
 - _You understand the broader scope of CSS: You can show that CSS can be used for more than just styling web pages._
