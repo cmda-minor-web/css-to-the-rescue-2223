@@ -4,6 +4,8 @@ Wij vinden het web fascinerend. De laatste jaren is CSS een volwassen en zeer kr
 
 **In dit vierweekse vak ga je experimenteren met (voor jou) nieuwe CSS technieken - om daarna/mee een innovatieve, experimentele én aangename ervaring te creëren - met vanilla CSS en HTML dus (frameworks, preprocessors, libraries en JS zijn niet toegestaan - nou vooruit een beetje JS).**
 
+Nb. Het experiment wordt gewaardeerd - zelfs/zeker als het niet (helemaal) lukt. Voel je vrij om verder te gaan dan de CSS-technieken die je al beheertst.
+
 ## Dingen om vooraf te doen
 - 🔱 **Fork** deze repository
 - ✅ [**Enroll** je voor de minor via de courselector](https://icthva.sharepoint.com/sites/courseselector#/CourseSelector/web-design-and-development/2020-2021) (dan kun je je werk straks ook op [DLO](https://dlo.mijnhva.nl/d2l/home/275640) opleveren)
@@ -36,3 +38,8 @@ Colleges, lessen en gesprekken vinden plaats [in Teams](https://teams.microsoft.
 - _You have been experimenting: Have the learning goals been stretched?_
 
 [](https://docs.google.com/spreadsheets/d/1Xv48MSiACNmnM6nXpGGUb8mJDC459uSaxJszO_zLEp8/edit?usp=sharing)
+
+## The Selector First CSS & No JS Methodology
+Het uitgangspunt is dat je geen ID's en classes gebruikt. Niet omdat ze niet nuttig zijn, maar om te oefenen met de [vele CSS selectoren](https://css-tricks.com/almanac/) die je tot je beschikking hebt. ID's mag je alleen gebruiken om de :target selector te triggeren. En als het echt echt echt niet anders kan, heb je permissie om een paar classes toe te voegen.
+
+Een tweede uitgangspunt is dat je geen JS gebruikt (i.i.g. zo min mogelijk). Wat met CSS kan mag je *niet* met JS realiseren en het is *niet* toegestaan om CSS properties met JS aan te passen. We vinden het daarentegen wel interessant dat je verkent waar JS en CSS elkaar raken/versterken, bijv. het uitlezen en aanpassen van CSS custom properties, of de animationstart, animationcancel, animationiteration genbruiken.
