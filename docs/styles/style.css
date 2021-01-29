@@ -11,6 +11,7 @@ body {
   --sannes-blue:#1b75b3;
   --hoofdKleur:#37332f;
   --achtergrondKleur:#e1ddd9;
+  --achtergrondHighlightKleur:#fffbf7;
   --linkKleur:var(--sannes-blue);
   --linkVisited:#8040bf;
   --linkActive:crimson;
@@ -28,15 +29,24 @@ h1, h2 {
 }
 
 h1 {
-  font-size:clamp(3em, 12vw, 5em);
+  font-size:clamp(3rem, 12vw, 5rem);
 }
 
 h2 {
-  font-size:clamp(2em, 8vw, 3.5em);
+  font-size:clamp(2rem, 8vw, 3.5rem);
+}
+
+h3 {
+  font-size:clamp(1rem, 5vw, 1.2rem);
+  font-weight:600;
 }
 
 p {
-  
+  line-height:1.75em;
+}
+
+strong {
+  font-weight:600;
 }
 
 a {
@@ -107,8 +117,10 @@ body > div:last-of-type{
   overflow:auto;
 
   display:grid;
-  grid-template-columns:1fr minmax(auto, 44em) 3fr;
-  grid-gap:clamp(1em, 6vw, 5em);
+  grid-template-columns:1fr minmax(auto, 44rem) 3fr;
+  grid-template-rows:min-content max-content min-content;
+  grid-gap:clamp(1rem, 6vw, 5rem);
+  align-items: flex-start;
 }
 
 
@@ -255,14 +267,6 @@ footer ul li a.uploadbox::before {
 }
 
 
-/********/
-/* MAIN */
-/********/
-main {
-  grid-column:2/-2;
-}
-
-
 /**************/
 /* EEN BULLET */
 /**************/
@@ -315,4 +319,34 @@ body > div.bullet {
   100% {
     opacity: 0;
   }
+}
+
+
+/********/
+/* MAIN */
+/********/
+main {
+  grid-column:2/-2;
+  font-size:clamp(1em, 3vw, 1.1em);
+}
+
+details {
+  display:flow-root;
+}
+
+details + details {
+  margin-top:clamp(1.5em, 5vw, 2.5em);
+}
+
+details[open] {
+  background-color:var(--achtergrondHighlightKleur);
+}
+
+summary h3 {
+  display:inline-block;
+  margin:0;
+}
+
+summary h3 + p {
+  margin:0;
 }
