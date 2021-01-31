@@ -91,8 +91,8 @@ var bullets = emojis;
 /* de links laten luisteren en dan schieten */
 /********************************************/
 function iniLinks(){
-	let deLinks = document.querySelectorAll('a');
-
+  let deLinks = document.querySelectorAll('a');
+  
 	function shoot() {
     if(!partyPooper) {
       let deltax;
@@ -117,10 +117,6 @@ function iniLinks(){
       }
 
       function schietBullet() {
-        function verwijderBullet() {
-          this.remove();
-        }
-
         //creeer bullet
         let bullet = document.createElement("div");
         let welkeBullet = Math.floor(Math.random() * bullets.length);
@@ -138,7 +134,7 @@ function iniLinks(){
         bullet.style.setProperty("--posy", (mousey - scrolly));
 
         //verwijder bullet na animatie (uit beeld)
-        bullet.addEventListener("animationend", verwijderBullet, {once: true});
+        bullet.addEventListener("animationend", () => {event.target.remove();}, {once: true});
 
         //voeg bullet toe
         document.body.prepend(bullet);
@@ -181,8 +177,17 @@ function iniLinks(){
 				updatePositieMuis(event)
 			});
 		}
-	}
+  }
+  
+  function ruimBulletsOp() {
+    let bullets = document.querySelectorAll(".bullets");
+    for (bullet of bullets) {
+      bullet.remove();
+    }
+  }
 
+
+  ruimBulletsOp();
 	activeerLinks();
 }
 

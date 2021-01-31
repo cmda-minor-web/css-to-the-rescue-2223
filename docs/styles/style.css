@@ -12,9 +12,6 @@ body {
   --hoofdKleur:#37332f;
   --achtergrondKleur:#e1ddd9;
   --achtergrondHighlightKleur:#fffbf7;
-  --linkKleur:var(--sannes-blue);
-  --linkVisited:#8040bf;
-  --linkActive:crimson;
   
   font-family:"Saira", sans-serif;
   color: var(--hoofdKleur);
@@ -54,18 +51,6 @@ strong {
   font-weight:600;
 }
 
-a {
-  color:var(--sannes-blue);
-}
-
-a:visited {
-  color:var(--linkVisited);
-}
-
-a:active {
-  color:var(--linkActive);
-}
-
 @keyframes rainbow {
   from {
     background-position: left bottom;
@@ -75,28 +60,85 @@ a:active {
   }
 }
 
+/* links en labels*/
+input[type="checkbox"], input[type="checkbox"] + label {
+  cursor:pointer;
+}
+
+a {
+  --linkKleur:var(--sannes-blue);
+  --linkDecoration:underline;
+  color:var(--partyHoverLinkColor, var(--headerLinkKleur, var(--linkKleur)));
+  text-decoration:var(--partyHoverLinkDecoration, var(--headerLinkDecoration, var(--linkDecoration)));
+  text-underline-offset:1.5px;
+  text-decoration-thickness:1px;
+}
+
+a:visited {
+  --linkKleur:#8040bf;
+}
+
+a:active {
+  --linkKleur:crimson;
+}
+
+header a,
+footer a {
+  --headerLinkKleur:var(--headerHoverLinkKleur, var(--headerReverseLinkKleur, currentColor));
+  --headerLinkDecoration:var(--headerHoverLinkDecoration, none);
+}
+  
+body.header-reverse header a {
+  --headerReverseLinkKleur:var(--achtergrondKleur);
+}
+
+header a:hover,
+header a:focus,
+footer a:hover,
+footer a:focus {
+  --headerHoverLinkKleur:var(--sannes-blue);
+}
+
+header a:hover,
+footer a:hover {
+  --headerHoverLinkDecoration:underline;
+}
+
 body:not(.party-pooper) a:hover,
-body:not(.party-pooper) a:focus,
+body:not(.party-pooper) a:focus {
+  --partyHoverLinkColor:currentColor;
+  --partyHoverLinkDecoration:none;
+}
+
+/* regenboog */
+body:not(.party-pooper) a:hover,
+body:not(.party-pooper) a:focus:focus-visible,
 body:not(.party-pooper) input:focus + label,
 body:not(.party-pooper) input:hover + label,
-body:not(.party-pooper) label:hover {
-  background-image: 
-    linear-gradient(
-      45deg,
-      crimson,
-      darkorange, 
-      gold,
-      yellowgreen,
-      var(--sannes-blue),
-      rebeccapurple,
-      crimson,
-      darkorange, 
-      gold,
-      yellowgreen,
-      var(--sannes-blue),
-      rebeccapurple,
-      crimson );
+body:not(.party-pooper) label:hover,
+body:not(.party-pooper) summary:hover,
+body:not(.party-pooper) summary:focus:focus-visible {
+  background-image: linear-gradient(
+    45deg,
+    crimson,
+    darkorange, 
+    gold,
+    yellowgreen,
+    var(--sannes-blue),
+    rebeccapurple,
+    crimson,
+    darkorange, 
+    gold,
+    yellowgreen,
+    var(--sannes-blue),
+    rebeccapurple,
+    crimson );
   background-size:200% 200%;
+
+  animation-name:rainbow;
+  animation-duration:2s;
+  animation-timing-function:linear;
+  animation-iteration-count:infinite;
 
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -104,19 +146,14 @@ body:not(.party-pooper) label:hover {
   
   -webkit-text-fill-color: transparent; 
   -moz-text-fill-color: transparent;
-  text-fill-color: transparent;  
-
-  animation-name:rainbow;
-  animation-duration:2s;
-  animation-timing-function:linear;
-  animation-iteration-count:infinite;
+  text-fill-color: transparent;
 }
 
 
 /***********/
 /* WRAPPER */
 /***********/
-body > div:last-of-type{
+body > div.helaas-een-wrapper {
   position:fixed;
   left:0; right:0; top:0; bottom:0;
   overflow:auto;
@@ -149,8 +186,8 @@ header {
 }
 
 body.header-reverse header {
-  color:var(--achtergrondKleur);
   background-color:var(--hoofdKleur);
+  color:var(--achtergrondKleur);
 }
 
 /* logo */
@@ -159,10 +196,7 @@ header a:visited {
   padding:0 .5em;
 
   display:flex;
-  align-items:center;  
-  
-  color:inherit;
-  text-decoration:none;
+  align-items:center;
 }
 
 header a::before {
@@ -181,16 +215,7 @@ header a::before {
   line-height:1em;
 
   color:inherit;
-  border:solid 1px currentColor;
-}
-
-header a:hover {
-  text-decoration:underline;
-}
-
-body.party-pooper header a:hover,
-body.party-pooper header a:focus {
-  color:var(--linkKleur);
+  border:solid 1px currentColor; 
 }
 
 /* form */
@@ -209,19 +234,13 @@ header form label {
   padding:0 0 0 .25em;
 }
 
-body.party-pooper header form input:focus + label,
-body.party-pooper header form input:hover + label,
-body.party-pooper header form label:hover {
-  color:var(--linkKleur);
-}
-
 header span {
   display:none;
 }
 
 @media (min-width:26em) {
   header span {
-    display:inline-block;
+    display:inline;
   }
 }
 
@@ -249,7 +268,6 @@ footer ul li a {
   padding:0 .5em;
   display:flex;
   align-items:center;
-  text-decoration:none;
 }
 
 footer ul li a::before {
@@ -335,6 +353,7 @@ main {
   font-size:clamp(1em, 3vw, 1.1em);
 }
 
+/* details */
 details {
   display:flow-root;
 }
@@ -347,30 +366,55 @@ details[open] {
   background-color:var(--achtergrondHighlightKleur);
 }
 
-summary * {
-  margin:0 1rem;
+/* summary */
+summary {
+  display:grid;
+  grid-template-columns:1.5rem 1fr 1.5rem;
+  cursor:pointer;
 }
 
-summary h3 {
-  display:inline;
+summary *:not(:first-child) {
+  grid-column:2/3;
+}
+
+summary h3,
+summary h3 + p  {
   margin:0;
 }
 
-summary h3 + p {
-  /* margin:0; */
-}
-
-summary ~ * {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
+/* summary marker */
 summary::marker {
-  margin:0 .25rem 0 0;
-  width:.75rem; height:.75rem
+  display:none;
 }
 
 summary::-webkit-details-marker {
-  margin:0 .25rem 0 0;
-  width:.75rem; height:.75rem
+  display:none;
 }
+
+summary::before {
+  --arrowMaat:.75;
+  content:"";
+  width:calc(.75 * 0.866 * 1em); height:calc(.75 * 1 * 1em);
+  width:.75em; height:.75em;
+  justify-self:center;
+  align-self:center;
+  
+  background-color:currentColor;
+  clip-path:polygon(13.4% 0, 100% 50%, 13.4% 100%, 13.4% 0);
+  transition:clip-path .5s;
+}
+
+details[open] summary::before {
+  clip-path:polygon(100% 13.4%, 50% 100%, 0 13.4%, 100% 13.4%);
+}
+
+/* details content */
+summary ~ * {
+  margin-left:1.5rem;
+  margin-right:1.5rem;
+}
+
+details ul,
+details ol {
+  padding-left:1.375em;
+} 
