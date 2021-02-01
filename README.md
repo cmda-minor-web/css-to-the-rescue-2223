@@ -29,7 +29,9 @@ Colleges, lessen en gesprekken vinden plaats [in Teams](https://teams.microsoft.
 
 ## Docenten
 - Vasilis van Gemert
+- Thijs Spijker
 - Sanne 't Hooft
+- Leonie Smits
 
 ## Learning goals
 - _You understand the broader scope of CSS: You can show that CSS can be used for more than just styling web pages._
