@@ -568,7 +568,7 @@ fieldset.voorwaarden:valid section:last-of-type output::after {
 
 /* cijfer */
 fieldset.beoordeling section:last-of-type p + p {
-  font-size:clamp(.5em, 2vw, 1em);
+  font-size:clamp(.6em, 2vw, 1em);
 }
 
 fieldset.beoordeling section:last-of-type output {
