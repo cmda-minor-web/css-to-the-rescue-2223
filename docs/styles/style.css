@@ -483,7 +483,7 @@ ul.docenten img {
 /* BEOORDELINGSFORMULIER */
 /*************************/
 fieldset {
-  margin-bottom:clamp(1rem, 6vw, 5rem);
+  margin-top:clamp(1rem, 6vw, 5rem);
 }
 
 fieldset legend {
