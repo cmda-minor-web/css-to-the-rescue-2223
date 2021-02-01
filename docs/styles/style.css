@@ -451,8 +451,6 @@ ul.docenten a {
 ul.docenten img {
   display:block;
   width:max(8em, 20vw); height:auto;
-  
-  border-radius:.25em;
 }
 
 @media (min-width:32em) {
@@ -484,6 +482,7 @@ ul.docenten img {
 /*************************/
 fieldset {
   margin-top:clamp(1rem, 6vw, 5rem);
+  padding:0 clamp(.5em, 3vw, 1em) clamp(.5em, 3vw, 1em);
 }
 
 fieldset legend {
@@ -528,7 +527,7 @@ fieldset.voorwaarden:valid + fieldset {
 
 /* voldaan & cijfer */
 fieldset section:last-of-type {
-  padding:1em 0 .5em;
+  padding:clamp(.5em, 3vw, 1em) 0 0;
   display:grid;
   grid-template-columns:1fr min-content;
   grid-gap:0 .5em;
@@ -545,7 +544,7 @@ fieldset section:last-of-type p {
 
 fieldset section:last-of-type output {
   width:5em;
-  padding:.25em 0;
+  padding:.5em 0;
   font-weight:600;
   text-align:center;
   text-transform:uppercase;
