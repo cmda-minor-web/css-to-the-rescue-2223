@@ -33,7 +33,7 @@ h2 {
   font-size:clamp(2rem, 8vw, 3.5rem);
 }
 
-h3 {
+h3, legend {
   font-size:clamp(1rem, 5vw, 1.25rem);
   font-weight:600;
   margin-bottom:0;
@@ -353,6 +353,11 @@ main {
   font-size:clamp(1em, 3vw, 1.1em);
 }
 
+
+/*********************/
+/* DETAILS & SUMMARY */
+/*********************/
+
 /* details */
 details {
   display:flow-root;
@@ -419,7 +424,10 @@ details ol {
   padding-left:1.375em;
 } 
 
-/* docenten */
+
+/************/
+/* DOCENTEN */
+/************/
 ul.docenten {
   margin-left:0;
   padding:0;
@@ -468,4 +476,111 @@ ul.docenten img {
     width:100%;
     height:auto;
   }
+}
+
+
+/*************************/
+/* BEOORDELINGSFORMULIER */
+/*************************/
+fieldset {
+  margin-bottom:clamp(1rem, 6vw, 5rem);
+}
+
+fieldset legend {
+  font-weight:600;
+}
+
+fieldset section + section {
+  margin-top:1em;
+  border-top:double 3px currentColor;
+}
+
+fieldset ul {
+  padding-left:1.375em;
+}
+
+/* voorwaarden */
+fieldset.voorwaarden section:first-of-type {
+  padding-top:1em;
+  display:grid;
+  grid-template-columns:min-content 1fr;
+  grid-gap:1em .25em;
+}
+
+fieldset.voorwaarden input {
+  margin:.5em .25em;
+  align-self:flex-start;
+}
+
+fieldset.voorwaarden ul {
+  margin:0;
+}
+
+/* beoordeling */
+fieldset.beoordeling {
+  opacity:.25;
+  transition:opacity .5s;
+}
+
+fieldset.voorwaarden:valid + fieldset {
+  opacity:1;
+}
+
+/* voldaan & cijfer */
+fieldset section:last-of-type {
+  padding:1em 0 .5em;
+  display:grid;
+  grid-template-columns:1fr min-content;
+  grid-gap:0 .5em;
+  align-items:center;
+}
+
+fieldset section:last-of-type p {
+  margin:0;
+  grid-column:1/2;
+  justify-self:flex-end;
+  text-align:right;
+  line-height: normal;
+}
+
+fieldset section:last-of-type output {
+  width:5em;
+  padding:.25em 0;
+  font-weight:600;
+  text-align:center;
+  text-transform:uppercase;
+  background:var(--achtergrondHighlightKleur);
+  border:solid 1px currentColor;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* voldaan */
+fieldset.voorwaarden section:last-of-type output::after {
+  content:attr(data-nee);
+}
+
+fieldset.voorwaarden:valid section:last-of-type output::after {
+  content:attr(data-ja);
+}
+
+/* cijfer */
+fieldset.beoordeling section:last-of-type p + p {
+  font-size:clamp(.5em, 2vw, 1em);
+}
+
+fieldset.beoordeling section:last-of-type output {
+  grid-column:2/3;
+  grid-row:1/4;
+  align-self:stretch;
+}
+
+fieldset.beoordeling section:last-of-type output::after {
+  content:attr(data-een);
+}
+
+fieldset.voorwaarden:valid + fieldset section:last-of-type output::after {
+  content:attr(data-cijfer);
 }

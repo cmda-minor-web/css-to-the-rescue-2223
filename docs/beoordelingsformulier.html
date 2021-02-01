@@ -7,7 +7,7 @@
   <title>Beoordelingsformulier - CSS to the Rescue 20/21</title>
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Saira+Condensed:wght@100&family=Saira:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Saira+Condensed:wght@100&family=Saira:wght@400;600;700&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="styles/style.css">
 
   <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
@@ -27,28 +27,72 @@
 
     <main>
       <h1>Beoordelings&shy;formulier</h1>
-      <p>Zinnetje om te testen. En dan nog wat meer woorden en woorden en woorden. Vervolgens nog een zin met een oneindig aantal (nou ja wat meer) woorden.</p>
-      <p>De oneven paragraven beginnen net anders. Zinnetje om te <a href="dd">testen</a>. En dan nog wat meer woorden en woorden en woorden. Vervolgens nog een zin met een oneindig aantal (nou ja wat meer) woorden.</p>
-      <p>Zinnetje om te testen. En dan nog wat meer woorden en woorden en woorden. Vervolgens nog een zin met een oneindig aantal (nou ja wat meer) woorden.</p>
-      <p>De oneven paragraven beginnen net anders. Zinnetje om te testen. En dan nog wat meer woorden en woorden en woorden. Vervolgens nog een zin met een oneindig aantal (nou ja wat meer) woorden.</p>
-      
-      <h2>Planning & Indeling</h2>
-      <p>Zinnetje om te testen. En dan nog wat meer <a href="#">woorden</a> en woorden en woorden. Vervolgens nog een zin met een oneindig aantal (nou ja wat meer) woorden.</p>
-      <p>De oneven paragraven beginnen net anders. Zinnetje om te testen. En dan nog wat meer woorden en woorden en woorden. Vervolgens nog een zin met een oneindig aantal (nou ja wat meer) woorden.</p>
+      <fieldset class="voorwaarden">
+        <legend>Deel 1 - Voorwaarden</legend>
+        <section>
+          <input type="checkbox" id="experiment" required>
+          <label for="experiment">Je hebt <strong>geëxperimenteerd</strong> met voor jou nieuwe CSS-technieken.</label>
 
-      
-      
-      <h2>De onderwerpen</h2>
-      <p>Zinnetje om te testen. En dan nog wat meer woorden en woorden en woorden. Vervolgens nog een zin met een oneindig aantal (nou ja wat meer) woorden.</p>
-      <p>De oneven <a href="#">paragraven</a> beginnen net anders. Zinnetje om te testen. En dan nog wat meer woorden en woorden en woorden. Vervolgens nog een zin met een oneindig aantal (nou ja wat meer) woorden.</p>
+          <input type="checkbox" id="inhoud-vorm-interactie" required>
+          <label for="inhoud-vorm-interactie">Je resultaat is een innovatieve, experimentele én aangename ervaring waarbij <strong>inhoud, vorm en interactie</strong> één geheel vormen.</label>
+          
+          <input type="checkbox" id="mogelijkheden-kracht" required>
+          <label for="mogelijkheden-kracht">Je laat zien dat je de <strong>mogelijkheden en kracht van CSS</strong> begrijpt. In je code gebruik je CSS, HTML (en JS) waar ze in uitblinken en combineer je de technieken zodat ze elkaar versterken.</label>
+          
+          <input type="checkbox" id="vanilla" required>
+          <label for="vanilla">Je code bestaat uit <strong>vanilla CSS</strong> en HTML en alleen JS waar nodig/gepast. Geen pre-processors, libraries en frameworks en alleen ID’s en classes indien strikt noodzakelijk. </label>
+          
+          <input type="checkbox" id="proces" required>
+          <label for="proces">
+            <strong>Proces</strong>:
+            <ul>
+              <li>Je website staat tijdig online (op GitHub en DLO) en is zonder technische problemen te zien. Verwijzingen naar bestanden (css, js, afbeeldingen, fonts, etc.) werken. Je website werkt op minimaal één browser naar keuze.</li>
+              <li>Je code is verzorgd en leesbaar. Netjes ingesprongen, van commentaar voorzien, etc.</li>
+              <li>Je vermeldt gebruikte bronnen in je code en procesverslag.</li>
+              <li>Je hebt je vorderingen besproken en je proces vastgelegd en tijdig ontsloten op GitHub.</li>
+            </ul>
+          </label>
 
-      <h2>Planning & Indeling</h2>
-      <p>Zinnetje om te testen. En dan nog wat meer woorden en woorden en woorden. Vervolgens nog een zin met een <a href="#">oneindig</a> aantal (nou ja wat meer) woorden.</p>
-      <p>De oneven paragraven beginnen net anders. Zinnetje om te testen. En dan nog wat meer woorden en woorden en woorden. Vervolgens nog een zin met een oneindig aantal (nou ja wat meer) woorden.</p>
+          <input type="checkbox" id="uitleggen" required>
+          <label for="uitleggen">Je kunt je <strong>code uitleggen</strong> in het eindgesprek.</label>
+        </section>
+        <section>
+          <p><strong>Voldaan aan basisvoorwaarden</strong></p>
+          <output data-nee="nee" data-ja="ja"></output>
+        </section>
+      </fieldset>
 
-      <h2>De onderwerpen</h2>
-      <p>Zinnetje om te testen. En dan nog wat meer woorden en woorden en woorden. <a href="#">Vervolgens</a> nog een zin met een oneindig aantal (nou ja wat meer) woorden.</p>
-      <p>De oneven paragraven beginnen net anders. Zinnetje om te testen. En dan nog wat meer woorden en woorden en woorden. Vervolgens nog een zin met een oneindig aantal (nou ja wat meer) woorden.</p>
+      <fieldset class="beoordeling">
+        <legend>Deel 2 - Beoordeling</legend>
+        <section>
+          <p>Voor een hoger cijfer:</p>
+          <ul>
+            <li>Meerdere voor jou nieuwe CSS-technieken gebruiken, of meerdere CSS-technieken combineren.</li>
+            <li>Een grote variëteit aan selectors passend inzetten en combineren.</li>
+            <li>Groot begrip tonen van de scope en mogelijkheden van CSS – weldoordachte en onderbouwde keuzes maken voor het toepassen van bepaalde CSS-technieken.</li>
+          </ul>
+          <ul>
+            <li>Elegante, onderhoudbare en uitbreidbare code schrijven – o.a. door cascading, inheritance en specificity slim toe te passen.</li>
+            <li>Code die werkt in meerdere browsers – waarbij je progressive enhancement passend inzet.</li>
+            <li>Veel resultaat bereiken met weinig code.</li>
+          </ul>
+          <ul>
+            <li>Verfijnde, vernuftige en/of unieke interactie – meerdere vormen van input ondersteunen – de interactie&shy;mogelijkheden van CSS, HTML (en JS) afzonderlijk benutten en deze inventief combineren.</li>
+          </ul>
+          <ul>
+            <li>Inhoud, vorm en interactie versterken elkaar.</li>
+            <li>Experimenten en randomness floreren.</li>
+            <li>Just WOW!</li>
+          </ul>
+        </section>
+        <section>
+          <p><strong>Beoordeling</strong></p>
+          <p>Indien aan basisvoorwaarden voldaan →&nbsp;cijfer bepalen</p>
+          <p>Indien niet aan basisvoorwaarden voldoen →&nbsp;1 (deel 2 is niet relevant)</p>
+          <output data-een="1" data-cijfer="cijfer"></output>
+        </section>
+      </fieldset>
+      <p>Nb. Indien <em>niet</em> voldaan is aan de basisvoorwaarden, kun je je werk aanvullen en nogmaals opleveren. Daarna kun je een tweede eindgesprek voeren.</p>
     </main>
     <footer>
       <ul>
