@@ -60,6 +60,10 @@ strong {
   }
 }
 
+img {
+  max-width:100%;
+}
+
 /* links en labels*/
 input[type="checkbox"], input[type="checkbox"] + label {
   cursor:pointer;
