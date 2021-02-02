@@ -10,7 +10,7 @@ Nb. Het experiment wordt gewaardeerd - zelfs/zeker als het niet (helemaal) lukt.
 - 🔱 **Fork** deze repository
 - ✅ [**Enroll** je voor de minor via de courselector](https://icthva.sharepoint.com/sites/courseselector#/CourseSelector/web-design-and-development/2020-2021) (dan kun je je werk straks ook op [DLO](https://dlo.mijnhva.nl/d2l/home/275640) opleveren)
 - 🎥 **Camera's aan** tijdens lessen en co (zorg dat je webcam werkt)
-- 📒 **Bekijk** het [programma](https://cmda-minor-web.github.io/css-to-the-rescue-2021/files/CSSttR-Kickoff.pdf) en de [kennismakingsoefening}(https://cmda-minor-web.github.io/css-to-the-rescue-2021/oefening.html) alvast even
+- 📒 **Bekijk** het [programma](https://cmda-minor-web.github.io/css-to-the-rescue-2021/files/CSSttR-Kickoff.pdf) en de [kennismakingsoefening](https://cmda-minor-web.github.io/css-to-the-rescue-2021/oefening.html) alvast even
 
 ## Opdrachten
 Het vak bestaat uit:
