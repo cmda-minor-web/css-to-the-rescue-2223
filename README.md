@@ -33,11 +33,11 @@ Colleges, lessen en gesprekken vinden plaats [in Teams](https://teams.microsoft.
 - Sanne 't Hooft
 - Leonie Smits
 
-## Learning goals
-- _You understand the broader scope of CSS: You can show that CSS can be used for more than just styling web pages._
-- ~~_You understand the progressive enhancement parts of CSS: You can show that you can use the cascade, inheritance and specificity in your project_~~
-- _You understand the interactive parts of CSS: Is the UX fully enhanced within in given CSS scope?_
-- _You have been experimenting: Have the learning goals been stretched?_
+## Leerdoelen
+- Je kunt experimenteren met (voor jou) nieuwe css-technieken - om de mogelijkheden op waarde te schatten en te gebruiken waar gepast.
+- Je hebt begrip van de volle kracht en mogelijkheden van CSS. Je laat zien dat CSS meer kan dan allen web pages 'stylen'.
+- Je hebt begrip van de interactie-technieken van CSS (en HTML). De UX is aangenaam bruikbaar binnen de gekozen context(en).
+- Je hebt begrip hoe progressive enhancement elegant toe te passen. Je laat zien dat je cascade, inheritance en specificity kunt toepassen.
 
 [](https://docs.google.com/spreadsheets/d/1Xv48MSiACNmnM6nXpGGUb8mJDC459uSaxJszO_zLEp8/edit?usp=sharing)
 
