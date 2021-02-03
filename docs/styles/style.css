@@ -12,6 +12,21 @@ body {
   --hoofdKleur:#37332f;
   --achtergrondKleur:#e1ddd9;
   --achtergrondHighlightKleur:#fffbf7;
+  --dubbeleRegenboog:linear-gradient(
+    45deg,
+    crimson,
+    darkorange, 
+    gold,
+    yellowgreen,
+    var(--sannes-blue),
+    rebeccapurple,
+    crimson,
+    darkorange, 
+    gold,
+    yellowgreen,
+    var(--sannes-blue),
+    rebeccapurple,
+    crimson );
   
   font-family:"Saira", sans-serif;
   color: var(--hoofdKleur);
@@ -122,21 +137,7 @@ body:not(.party-pooper) input:hover + label,
 body:not(.party-pooper) label:hover,
 body:not(.party-pooper) summary:hover,
 body:not(.party-pooper) summary:focus:focus-visible {
-  background-image: linear-gradient(
-    45deg,
-    crimson,
-    darkorange, 
-    gold,
-    yellowgreen,
-    var(--sannes-blue),
-    rebeccapurple,
-    crimson,
-    darkorange, 
-    gold,
-    yellowgreen,
-    var(--sannes-blue),
-    rebeccapurple,
-    crimson );
+  background-image:var(--dubbeleRegenboog); 
   background-size:200% 200%;
 
   animation-name:rainbow;
@@ -152,7 +153,6 @@ body:not(.party-pooper) summary:focus:focus-visible {
   -moz-text-fill-color: transparent;
   text-fill-color: transparent;
 }
-
 
 /***********/
 /* WRAPPER */
@@ -452,9 +452,30 @@ ul.docenten a {
   align-items:center;
 }
 
+ul.docenten div {
+  width:max(8em, 20vw);
+}
+
+body:not(.party-pooper) ul.docenten a:hover div {
+  background-image:var(--dubbeleRegenboog);
+  background-size:200% 200%;
+
+  animation-name:rainbow;
+  animation-duration:2s;
+  animation-timing-function:linear;
+  animation-iteration-count:infinite;
+
+  /* opacity:.5; */
+}
+
 ul.docenten img {
   display:block;
-  width:max(8em, 20vw); height:auto;
+  width:100%; height:auto;
+}
+
+body:not(.party-pooper) ul.docenten a:hover img {
+  mix-blend-mode:multiply;
+  
 }
 
 @media (min-width:32em) {
@@ -474,7 +495,7 @@ ul.docenten img {
     text-align:center;
   }
 
-  ul.docenten img {
+  ul.docenten div {
     width:100%;
     height:auto;
   }
