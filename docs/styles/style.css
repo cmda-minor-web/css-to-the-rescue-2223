@@ -464,13 +464,15 @@ body:not(.party-pooper) ul.docenten a:hover div {
   animation-duration:2s;
   animation-timing-function:linear;
   animation-iteration-count:infinite;
-
-  /* opacity:.5; */
 }
 
 ul.docenten img {
   display:block;
   width:100%; height:auto;
+}
+
+ul.docenten li:last-child img {
+  /* filter: url(#grijsaard); */
 }
 
 body:not(.party-pooper) ul.docenten a:hover img {
@@ -486,7 +488,6 @@ body:not(.party-pooper) ul.docenten a:hover img {
 
 @media (min-width:48em) {
   ul.docenten {
-    /* grid-template-columns:repeat(4, 1fr); */
     grid-gap:2em;
   }
 
