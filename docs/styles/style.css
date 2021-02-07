@@ -472,7 +472,7 @@ ul.docenten img {
 }
 
 ul.docenten li:last-child img {
-  /* filter: url(#grijsaard); */
+
 }
 
 body:not(.party-pooper) ul.docenten a:hover img {
