@@ -164,7 +164,7 @@ body > div.helaas-een-wrapper {
 
   display:grid;
   grid-template-columns:2fr minmax(auto, 44rem) 5fr;
-  grid-template-rows:min-content max-content min-content;
+  grid-template-rows:min-content max-content 1fr;
   grid-gap:clamp(1rem, 6vw, 5rem);
   align-items: flex-start;
 }
@@ -254,6 +254,7 @@ header span {
 /**********/
 footer {
   grid-column:2/-2;
+  align-self:flex-end;
 }
 
 footer nav {
@@ -386,6 +387,12 @@ summary *:not(:first-child) {
   grid-column:2/3;
 }
 
+summary h2 {
+  margin:.25em 0;
+}
+summary h2 + p {
+  margin:-.25em 0 0;
+}
 summary h3,
 summary h3 + p  {
   margin:0;
