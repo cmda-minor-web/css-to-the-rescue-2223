@@ -237,9 +237,36 @@ function iniOffCanvas(){
 }
 
 
+/**********************/
+/* details en summary */
+/**********************/
+function iniDetailsAndSummary() {
+  let deDetails = document.querySelectorAll("details");
+
+  
+  for(let details of deDetails) {
+    /* weer openen indien opeen acher gelaten */
+    if( localStorage.getItem(details.id) !== null ) {
+      if( JSON.parse(localStorage.getItem(details.id)) ) {
+        details.open = true;
+      }
+    }
+
+    /* luisteren naar changes */
+    details.addEventListener("toggle", event => {
+      if (details.open) {
+        localStorage.setItem(details.id, JSON.stringify(true));
+      } else {
+        localStorage.setItem(details.id, JSON.stringify(false));
+      }
+    });
+  }
+}
+
 /*******/
 /* ini */
 /*******/
 iniPartyPooper();
 iniLinks();
 iniOffCanvas();
+iniDetailsAndSummary();
