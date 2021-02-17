@@ -33,6 +33,14 @@ body {
   background-color: var(--achtergrondKleur);
 }
 
+@media (prefers-color-scheme:dark) {
+  body {
+    --achtergrondKleur:#37332f;
+    --hoofdKleur:#e1ddd9;
+    --achtergrondHighlightKleur:#55514d;
+  }
+}
+
 h1, h2 {
   justify-self: flex-start;
   font-family: 'Saira Condensed', sans-serif;
@@ -93,6 +101,12 @@ a {
   text-decoration-thickness:1px;
 }
 
+@media (prefers-color-scheme:dark) {
+  a {
+    --linkKleur:#e48a4c;
+  }
+}
+
 a:visited {
   --linkKleur:#8040bf;
 }
@@ -129,29 +143,39 @@ body:not(.party-pooper) a:focus {
   --partyHoverLinkDecoration:none;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  body:not(.party-pooper) a:hover,
+  body:not(.party-pooper) a:focus {
+    --partyHoverLinkColor:#e48a4c;
+    --partyHoverLinkDecoration:underline;
+  }
+}
+
 /* regenboog */
-body:not(.party-pooper) a:hover,
-body:not(.party-pooper) a:focus:focus-visible,
-body:not(.party-pooper) input:focus + label,
-body:not(.party-pooper) input:hover + label,
-body:not(.party-pooper) label:hover,
-body:not(.party-pooper) summary:hover,
-body:not(.party-pooper) summary:focus:focus-visible {
-  background-image:var(--dubbeleRegenboog); 
-  background-size:200% 200%;
+@media (prefers-reduced-motion: no-preference) {
+  body:not(.party-pooper) a:hover,
+  body:not(.party-pooper) a:focus:focus-visible,
+  body:not(.party-pooper) input:focus + label,
+  body:not(.party-pooper) input:hover + label,
+  body:not(.party-pooper) label:hover,
+  body:not(.party-pooper) summary:hover,
+  body:not(.party-pooper) summary:focus:focus-visible {
+    background-image:var(--dubbeleRegenboog); 
+    background-size:200% 200%;
 
-  animation-name:rainbow;
-  animation-duration:2s;
-  animation-timing-function:linear;
-  animation-iteration-count:infinite;
+    animation-name:rainbow;
+    animation-duration:2s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
 
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  background-clip: text;
-  
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-  text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    text-fill-color: transparent;
+  }
 }
 
 /***********/
@@ -366,6 +390,7 @@ main {
 /* details */
 details {
   display:flow-root;
+  padding-bottom:.25em;
 }
 
 details + details {
@@ -476,10 +501,6 @@ body:not(.party-pooper) ul.docenten a:hover div {
 ul.docenten img {
   display:block;
   width:100%; height:auto;
-}
-
-ul.docenten li:last-child img {
-
 }
 
 body:not(.party-pooper) ul.docenten a:hover img {
