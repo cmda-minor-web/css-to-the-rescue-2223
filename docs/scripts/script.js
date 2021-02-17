@@ -216,8 +216,6 @@ function iniPartyPooper() {
 
 
 function iniOffCanvas(){
-  
-
   let header1 = document.querySelector('h1');
   let observerHeader1;
   let observerConfigHeader1 = {
