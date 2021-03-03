@@ -637,3 +637,34 @@ fieldset.beoordeling section:last-of-type output::after {
 fieldset.voorwaarden:valid + fieldset section:last-of-type output::after {
   content:attr(data-cijfer);
 }
+
+@media print {
+  body > div.helaas-een-wrapper {
+    display: block;
+    position: relative;
+  }
+  header form,
+  fieldset section:last-of-type,
+  footer * {
+    display: none;
+  }
+  h1 {
+    font-size: 9vw;
+  }
+  fieldset.beoordeling {
+    opacity: 1;
+    page-break-before: always;
+  }
+  footer {
+    border: 1px solid black;
+    width: 3cm;
+    height: 2cm;
+    margin-top: 1cm;
+    margin-left: auto;
+    box-sizing: border-box;
+  }
+  footer::before {
+    content: "Cijfer:";
+    margin-left: .3em;
+  }
+}
