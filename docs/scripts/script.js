@@ -91,7 +91,7 @@ var bullets = emojis;
 /* de links laten luisteren en dan schieten */
 /********************************************/
 function iniLinks(){
-  let deLinks = document.querySelectorAll('a');
+  let deLinks = document.querySelectorAll('a, label');
   
 	function shoot() {
     if(!partyPooper) {
