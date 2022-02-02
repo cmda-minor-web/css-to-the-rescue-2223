@@ -9,7 +9,7 @@ Nb. Het experiment wordt gewaardeerd - zelfs/zeker als het niet (helemaal) lukt.
 ## Dingen om vooraf te doen
 - 🔱 **Fork** deze repository
 - ✅ [**Enroll** je voor de minor via de courselector](https://icthva.sharepoint.com/sites/courseselector#/CourseSelector/web-design-and-development/2020-2021) (dan kun je je werk straks ook op [DLO](https://dlo.mijnhva.nl/d2l/home/324147) opleveren)
-- 📒 **Bekijk** het programma (soon) en de [kennismakingsoefening](https://cmda-minor-web.github.io/css-to-the-rescue-2122/oefening.html) alvast even
+- 📒 **Bekijk** het programma (soon) en de [kennismakingsoefening](https://cmda-minor-web.github.io/css-to-the-rescue-2122/docs/oefening.html) alvast even
 
 ## Opdrachten
 Het vak bestaat uit:
@@ -19,14 +19,13 @@ Het vak bestaat uit:
 De [beoordelingscriteria voor de eindopdracht](https://cmda-minor-web.github.io/css-to-the-rescue-2122/beoordelingsformulier.html) op een rijte.
 
 ## Themasessies
-Schrijf je [in de excel](https://teams.microsoft.com/l/file/6E37FED4-91C7-4293-A7C4-C0309D24634D?tenantId=0907bb1e-21fc-476f-8843-02d09ceb59a7&fileType=xlsx&objectUrl=https%3A%2F%2Ficthva.sharepoint.com%2Fsites%2FFDMCI_EDU__CMD20_21_Minor_Web_5i7j73jt%2FShared%20Documents%2F03%20-%20CSS%20to%20the%20Rescue%2FCSS%20to%20the%20rescue%20-%20Indeling%20%26%20Planning.xlsx&baseUrl=https%3A%2F%2Ficthva.sharepoint.com%2Fsites%2FFDMCI_EDU__CMD20_21_Minor_Web_5i7j73jt&serviceName=teams&threadId=19:84bbb4a3b90d40a6b434649359689744@thread.tacv2&groupId=5d001f9a-0a4b-4768-92b1-0f1768328ba3) zowel voor woensdag als donderdag in voor een themasessie naar je keuze (1 per dag):
+Schrijf je in het [CSSttR channel](https://teams.microsoft.com/l/channel/19%3a1261f148f4a14a788c98784a96d361c4%40thread.tacv2/03%2520-%2520CSS%2520to%2520the%2520Rescue?groupId=36b2af3f-d616-4e89-b714-f45196f2a6ad&tenantId=0907bb1e-21fc-476f-8843-02d09ceb59a7) bij 'Files' in de 'Indeling en Planning' Excel in voor zowel woensdag als donderdag in voor een themasessie naar je keuze (1 per dag):
 - [Materiaal voor de themasessies](https://cmda-minor-web.github.io/css-to-the-rescue-2021/themas.html)
 
 ## Programma
 Het vak beslaat 4 weken. Bekijk de [kick-off presentatie](https://cmda-minor-web.github.io/css-to-the-rescue-2021/files/CSSttR-Kickoff.pdf) (pdf 30MB). 
 
-In Teams vind je de [Excel met de indeling en planning](https://teams.microsoft.com/l/file/6E37FED4-91C7-4293-A7C4-C0309D24634D?tenantId=0907bb1e-21fc-476f-8843-02d09ceb59a7&fileType=xlsx&objectUrl=https%3A%2F%2Ficthva.sharepoint.com%2Fsites%2FFDMCI_EDU__CMD20_21_Minor_Web_5i7j73jt%2FShared%20Documents%2F03%20-%20CSS%20to%20the%20Rescue%2FCSS%20to%20the%20rescue%20-%20Indeling%20%26%20Planning.xlsx&baseUrl=https%3A%2F%2Ficthva.sharepoint.com%2Fsites%2FFDMCI_EDU__CMD20_21_Minor_Web_5i7j73jt&serviceName=teams&threadId=19:84bbb4a3b90d40a6b434649359689744@thread.tacv2&groupId=5d001f9a-0a4b-4768-92b1-0f1768328ba3). 
-Daar schrijf je je ook in voor themasessies en het eindgesprek.
+In Teams vind je het [CSSttR channel](https://teams.microsoft.com/l/channel/19%3a1261f148f4a14a788c98784a96d361c4%40thread.tacv2/03%2520-%2520CSS%2520to%2520the%2520Rescue?groupId=36b2af3f-d616-4e89-b714-f45196f2a6ad&tenantId=0907bb1e-21fc-476f-8843-02d09ceb59a7) bij 'Files' de Excel met de 'Indeling en Planning'. Daar schrijf je je ook in voor themasessies en het eindgesprek.
 
 Colleges, lessen en gesprekken vinden plaats in het TTH (4e verdieping :-).
 
