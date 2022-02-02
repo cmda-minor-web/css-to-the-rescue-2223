@@ -13,8 +13,8 @@ Nb. Het experiment wordt gewaardeerd - zelfs/zeker als het niet (helemaal) lukt.
 
 ## Opdrachten
 Het vak bestaat uit:
-- [Een kennismakingsoefening](https://cmda-minor-web.github.io/css-to-the-rescue-2021/oefening.html)
-- [De eindopdracht](https://cmda-minor-web.github.io/css-to-the-rescue-2021/index.html)
+- [Een kennismakingsoefening](https://cmda-minor-web.github.io/css-to-the-rescue-2022/oefening.html)
+- [De eindopdracht](https://cmda-minor-web.github.io/css-to-the-rescue-2022/index.html)
 
 De [beoordelingscriteria voor de eindopdracht](https://cmda-minor-web.github.io/css-to-the-rescue-2022/beoordelingsformulier.html) op een rijte.
 
