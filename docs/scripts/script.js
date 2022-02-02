@@ -91,7 +91,7 @@ var bullets = emojis;
 /* de links laten luisteren en dan schieten */
 /********************************************/
 function iniLinks(){
-  let deLinksEnLabels = document.querySelectorAll('a, label');
+  let deLinksEnLabels = document.querySelectorAll('a, input[type="checkbox"], label, summary');
   
 	function shoot() {
     if(!partyPooper) {
@@ -197,7 +197,7 @@ function iniLinks(){
 /* de party pooper */
 /*******************/
 function iniPartyPooper() {
-  function changePartyPooper() {
+  function changePartyPooper(e) {    
     partyPooper = !partyPooper;
     localStorage.setItem("partyPooper", JSON.stringify(partyPooper));
     document.body.classList.toggle("party-pooper");
