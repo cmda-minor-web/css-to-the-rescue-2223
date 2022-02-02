@@ -91,7 +91,7 @@ var bullets = emojis;
 /* de links laten luisteren en dan schieten */
 /********************************************/
 function iniLinks(){
-  let deLinks = document.querySelectorAll('a, label');
+  let deLinksEnLabels = document.querySelectorAll('a, label');
   
 	function shoot() {
     if(!partyPooper) {
@@ -155,25 +155,26 @@ function iniLinks(){
 	}
 	
 	function activeerLinks() {
-		for(let eenLink of deLinks) {
-			function updatePositieMuis(event) {
+		for(let eenLinkOfLabel of deLinksEnLabels) {
+
+      function updatePositieMuis(event) {
 				mousex = event.pageX;
         mousey = event.pageY;
         scrolly = document.body.scrollTop;
 			}
 			
-			eenLink.addEventListener("mouseover", (event) => {
+			eenLinkOfLabel.addEventListener("mouseover", (event) => {
 				updatePositieMuis(event);
 				//start schieten
 				shoot();
 			});
 
-			eenLink.addEventListener("mouseout", () => {
+			eenLinkOfLabel.addEventListener("mouseout", () => {
 				// stop schieten
 				clearTimeout(shooting);
 			});	
 
-			eenLink.addEventListener("mousemove", (event) => {
+			eenLinkOfLabel.addEventListener("mousemove", (event) => {
 				updatePositieMuis(event)
 			});
 		}

@@ -87,9 +87,13 @@ img {
   max-width:100%;
 }
 
-/* links en labels*/
+/* links, inputs en labels */
 input[type="checkbox"], input[type="checkbox"] + label {
   cursor:pointer;
+}
+
+input[type="checkbox"] {
+  accent-color: var(--sannes-blue);
 }
 
 a {
@@ -102,6 +106,10 @@ a {
 }
 
 @media (prefers-color-scheme:dark) {
+  input[type="checkbox"] {
+    accent-color: #e48a4c;
+  }
+
   a {
     --linkKleur:#e48a4c;
   }
