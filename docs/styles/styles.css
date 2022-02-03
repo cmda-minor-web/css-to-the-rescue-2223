@@ -191,7 +191,7 @@ body:not(.party-pooper) a:focus {
 /***********/
 body > div.helaas-een-wrapper {
   position:fixed;
-  left:0; right:0; top:0; bottom:0;
+  inset:0;
   overflow:auto;
 
   display:grid;
@@ -199,6 +199,9 @@ body > div.helaas-een-wrapper {
   grid-template-rows:min-content max-content 1fr;
   grid-gap:clamp(1rem, 6vw, 5rem);
   align-items: flex-start;
+  
+  scroll-behavior: smooth;
+  scroll-padding-top: 5em;
 }
 
 
