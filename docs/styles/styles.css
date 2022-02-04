@@ -266,10 +266,12 @@ header a::before {
 
 /* form */
 header form {
-  margin:0; padding:0 .5em;
+  margin:0; 
+  padding:.25em .5em;
 
-  display:flex;
-  align-items:center;
+  display:grid;
+  grid-template-columns: min-content 1fr;
+  align-items: center;
 }
 
 header form input {
@@ -278,6 +280,7 @@ header form input {
 
 header form label {
   padding:0 0 0 .25em;
+  grid-column-start:2;
 }
 
 header span {
