@@ -56,10 +56,17 @@ h2 {
   font-size:clamp(2rem, 8vw, 3.5rem);
 }
 
-h3, legend {
-  font-size:clamp(1rem, 5vw, 1.25rem);
+h3, h4, legend {
   font-weight:600;
   margin-bottom:0;
+}
+
+h3, h4, legend {
+  font-size:clamp(1rem, 5vw, 1.25rem);
+}
+
+h4 {
+  font-size:clamp(1rem, 4.5vw, 1.125rem);
 }
 
 p {
