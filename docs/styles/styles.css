@@ -10,6 +10,8 @@ html, body {
 body {
   --sannes-blue:#1b75b3;
   --hoofdKleur:#37332f;
+
+  --hoofdKleurTransparant:#37332fcc;
   --achtergrondKleur:#e1ddd9;
   --achtergrondHighlightKleur:#fffbf7;
   --dubbeleRegenboog:linear-gradient(
@@ -37,6 +39,7 @@ body {
   body {
     --achtergrondKleur:#37332f;
     --hoofdKleur:#e1ddd9;
+    --hoofdKleurTransparant:#e1ddd9cc;
     --achtergrondHighlightKleur:#55514d;
   }
 }
@@ -232,8 +235,9 @@ header {
 }
 
 body.header-reverse header {
-  background-color:var(--hoofdKleur);
+  background-color:var(--hoofdKleurTransparant);
   color:var(--achtergrondKleur);
+  backdrop-filter: blur(2px);
 }
 
 /* logo */
@@ -267,11 +271,17 @@ header a::before {
 /* form */
 header form {
   margin:0; 
-  padding:.25em .5em;
+  padding:0 .5em;
 
-  display:grid;
+  display:none;
   grid-template-columns: min-content 1fr;
   align-items: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  header form {
+    display:grid;
+  }
 }
 
 header form input {
@@ -505,24 +515,25 @@ ul.docenten div {
   width:max(8em, 20vw);
 }
 
-body:not(.party-pooper) ul.docenten a:hover div {
-  background-image:var(--dubbeleRegenboog);
-  background-size:200% 200%;
-
-  animation-name:rainbow;
-  animation-duration:2s;
-  animation-timing-function:linear;
-  animation-iteration-count:infinite;
-}
-
 ul.docenten img {
   display:block;
   width:100%; height:auto;
 }
 
-body:not(.party-pooper) ul.docenten a:hover img {
-  mix-blend-mode:multiply;
+@media (prefers-reduced-motion: no-preference) {
+  body:not(.party-pooper) ul.docenten a:hover div {
+    background-image:var(--dubbeleRegenboog);
+    background-size:200% 200%;
   
+    animation-name:rainbow;
+    animation-duration:2s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+  }
+
+  body:not(.party-pooper) ul.docenten a:hover img {
+    mix-blend-mode:multiply;
+  }
 }
 
 @media (min-width:32em) {

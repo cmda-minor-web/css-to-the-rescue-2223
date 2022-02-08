@@ -94,7 +94,7 @@ function iniLinks(){
   let deLinksEnLabels = document.querySelectorAll('a, input[type="checkbox"], label, summary');
   
 	function shoot() {
-    if(!partyPooper) {
+    if(!partyPooper && window.matchMedia('(prefers-reduced-motion: no-preference)').matches) {
       let deltax;
       let deltay;
       let richting;
