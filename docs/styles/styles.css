@@ -10,9 +10,11 @@ html, body {
 body {
   --sannes-blue:#1b75b3;
   --hoofdKleur:#37332f;
-
-  --hoofdKleurTransparant:#37332fcc;
   --achtergrondKleur:#e1ddd9;
+
+  --hoofdKleurInverse:#e1ddd9;
+  --achtergrondKleurInverse: #37332fcc;
+  
   --achtergrondHighlightKleur:#fffbf7;
   --dubbeleRegenboog:linear-gradient(
     45deg,
@@ -37,9 +39,12 @@ body {
 
 @media (prefers-color-scheme:dark) {
   body {
-    --achtergrondKleur:#37332f;
     --hoofdKleur:#e1ddd9;
-    --hoofdKleurTransparant:#e1ddd9cc;
+    --achtergrondKleur:#37332f;
+    
+    --hoofdKleurInverse:#e1ddd9;
+    --achtergrondKleurInverse: hsl(30deg 8% 12.5% / .8);
+
     --achtergrondHighlightKleur:#55514d;
   }
 }
@@ -235,8 +240,8 @@ header {
 }
 
 body.header-reverse header {
-  background-color:var(--hoofdKleurTransparant);
-  color:var(--achtergrondKleur);
+  color:var(--hoofdKleurInverse);
+  background-color:var(--achtergrondKleurInverse);
   backdrop-filter: blur(2px);
 }
 
@@ -266,6 +271,9 @@ header a::before {
 
   color:inherit;
   border:solid 1px currentColor; 
+}
+body.header-reverse header a {
+  color:var(--hoofdKleurInverse);
 }
 
 /* form */
