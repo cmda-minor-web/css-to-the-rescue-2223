@@ -9,13 +9,17 @@ html, body {
 
 body {
   --sannes-blue:#1b75b3;
+  
   --hoofdKleur:#37332f;
+  --hoofdKleurTransparant:#37332222;
+
   --achtergrondKleur:#e1ddd9;
 
   --hoofdKleurInverse:#e1ddd9;
   --achtergrondKleurInverse: #37332fcc;
   
   --achtergrondHighlightKleur:#fffbf7;
+
   --dubbeleRegenboog:linear-gradient(
     45deg,
     crimson,
@@ -40,10 +44,12 @@ body {
 @media (prefers-color-scheme:dark) {
   body {
     --hoofdKleur:#e1ddd9;
+    --hoofdKleurTransparant:#e1ddd922;
+
     --achtergrondKleur:#37332f;
     
     --hoofdKleurInverse:#e1ddd9;
-    --achtergrondKleurInverse: hsl(30deg 8% 12.5% / .8);
+    --achtergrondKleurInverse: #27231fcc;
 
     --achtergrondHighlightKleur:#55514d;
   }
@@ -138,6 +144,10 @@ a:active {
   --linkKleur:crimson;
 }
 
+
+
+
+
 header a,
 footer a {
   --headerLinkKleur:var(--headerHoverLinkKleur, var(--headerReverseLinkKleur, currentColor));
@@ -201,6 +211,10 @@ body:not(.party-pooper) a:focus {
   }
 }
 
+
+
+
+
 /***********/
 /* WRAPPER */
 /***********/
@@ -218,6 +232,9 @@ body > div.helaas-een-wrapper {
   scroll-behavior: smooth;
   scroll-padding-top: 5em;
 }
+
+
+
 
 
 /**********/
@@ -312,6 +329,9 @@ header span {
 }
 
 
+
+
+
 /**********/
 /* FOOTER */
 /**********/
@@ -352,6 +372,9 @@ footer ul li a.planning::before {
 footer ul li a.uploadbox::before {
   content:"📬";
 }
+
+
+
 
 
 /**************/
@@ -409,6 +432,9 @@ body > div.bullet {
 }
 
 
+
+
+
 /********/
 /* MAIN */
 /********/
@@ -416,6 +442,9 @@ main {
   grid-column:2/-2;
   font-size:clamp(1em, 3vw, 1.1em);
 }
+
+
+
 
 
 /*********************/
@@ -496,6 +525,39 @@ details ol {
 } 
 
 
+
+
+
+/*********/
+/* TEAMS */
+/*********/
+p.teams {
+  margin-top:.25em;
+  
+  display:flex;
+  align-items: center;
+  gap:.5ch;
+}
+
+p.teams > span {
+  padding:0 .5em;
+  
+  display:flex;
+  align-items: center;
+  gap:.25ch;
+  border:solid 1px currentColor;
+
+  font-size:1.25em;
+}
+
+p.teams > span span {
+  font-size:.8em;
+}
+
+
+
+
+
 /************/
 /* DOCENTEN */
 /************/
@@ -565,6 +627,9 @@ ul.docenten img {
     height:auto;
   }
 }
+
+
+
 
 
 /*************************/
