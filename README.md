@@ -9,7 +9,7 @@ Goed om te weten: Het experiment wordt gewaardeerd - zelfs/zeker als het niet (h
 ## Dingen om vooraf te doen
 - 🔱 **Fork** deze repository.
 - ✅ [**Enroll** je voor de minor via de courselector](https://icthva.sharepoint.com/sites/courseselector#/CourseSelector/web-design-and-development/2022-2023) (dan kun je je werk straks ook op [DLO](https://dlo.mijnhva.nl/d2l/home/456154) opleveren).
-- 📒 **Bekijk** het [programma](https://cmda-minor-web.github.io/css-to-the-rescue-2223/files/CSSttR-2223-Kick-off.pdf) (pdf 48MB), **het quizje** (soon) en de [kennismakingsoefening](https://cmda-minor-web.github.io/css-to-the-rescue-2223/oefening.html) alvast even.
+- 📒 **Bekijk** het [programma](https://cmda-minor-web.github.io/css-to-the-rescue-2223/files/CSSttR-2223-Kick-off.pdf) (pdf 51MB), **het quizje** (soon) en de [kennismakingsoefening](https://cmda-minor-web.github.io/css-to-the-rescue-2223/oefening.html) alvast even.
 
 ## Opdrachten
 Het vak bestaat uit:
@@ -19,7 +19,7 @@ Het vak bestaat uit:
 De [beoordelingscriteria voor de eindopdracht](https://cmda-minor-web.github.io/css-to-the-rescue-2223/beoordelingsformulier.html) op een rijte.
 
 ## Themasessies
-Schrijf je in het [CSSttR channel](https://teams.microsoft.com/l/channel/19%3a1261f148f4a14a788c98784a96d361c4%40thread.tacv2/03%2520-%2520CSS%2520to%2520the%2520Rescue?groupId=36b2af3f-d616-4e89-b714-f45196f2a6ad&tenantId=0907bb1e-21fc-476f-8843-02d09ceb59a7) bij 'Files' in de 'Indeling en Planning' Excel in voor zowel woensdag als donderdag in voor een themasessie naar je keuze (1 per dag):
+Schrijf je in het [CSSttR channel](https://teams.microsoft.com/l/channel/19%3acb82166dd12f4702a8c3b130b60ee873%40thread.tacv2/04%2520CSS%2520to%2520the%2520Rescue?groupId=c8b97eb6-ad53-4531-ad66-5c3c6297951c&tenantId=0907bb1e-21fc-476f-8843-02d09ceb59a7) bij 'Files' in de 'Indeling en Planning' Excel in voor zowel woensdag als donderdag in voor een themasessie naar je keuze (1 per dag):
 - [Materiaal voor de themasessies](https://cmda-minor-web.github.io/css-to-the-rescue-2223/themas.html)
 
 ## Programma
