@@ -9,7 +9,7 @@ Goed om te weten: Het experiment wordt gewaardeerd - zelfs/zeker als het niet (h
 ## Dingen om vooraf te doen
 - 🔱 **Fork** deze repository.
 - ✅ [**Enroll** je voor de minor via de courselector](https://icthva.sharepoint.com/sites/courseselector#/CourseSelector/web-design-and-development/2022-2023) (dan kun je je werk straks ook op [DLO](https://dlo.mijnhva.nl/d2l/home/456154) opleveren).
-- 📒 **Bekijk** het [programma](https://cmda-minor-web.github.io/css-to-the-rescue-2223/files/CSSttR-2223-Kick-off.pdf) (pdf 51MB), **het quizje** (soon) en de [kennismakingsoefening](https://cmda-minor-web.github.io/css-to-the-rescue-2223/oefening.html) alvast even.
+- 📒 **Bekijk** het [programma](https://cmda-minor-web.github.io/css-to-the-rescue-2223/files/CSSttR-2223-Kick-off.pdf) (pdf 51MB), [het quizje](https://cmda-minor-web.github.io/css-to-the-rescue-2223/files/CSSttR-2223-Selector-Quizje.pdf) en de [kennismakingsoefening](https://cmda-minor-web.github.io/css-to-the-rescue-2223/oefening.html) alvast even.
 
 ## Opdrachten
 Het vak bestaat uit:
