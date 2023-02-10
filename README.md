@@ -17,6 +17,28 @@ De CSS technieken die ik ga gebruiken zijn:
 
 
 ## Eerste schetsen
+<img src="./images/schets-v1.png" width="500">
+
+### Toelichting
+Hier heb ik een aantal ideeen voor mijn opdracht geschets.
+Ik heb technieken van css toegevoegd die ik kan implementeren in mijn project.
+
+CSS technieken zoals:
+- Scroll-snap
+- prefer color scheme
+- Paralax
+- 3D Transform
+- Motion path met svg
+- Interactie met :has selector
+- Gradients
+
+
+### Planning
+- Inspiratie zoeken van andere werken
+- Inspiratie beelden verzamelen
+- Schetsen maken van mogelijke ideeen
+- Ideen kiezen en breakdownschets maken
+- Eerste stukje proberen te coderen
 
 
 
