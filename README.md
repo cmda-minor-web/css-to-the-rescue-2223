@@ -17,7 +17,7 @@ De CSS technieken die ik ga gebruiken zijn:
 
 
 ## Eerste schetsen
-<img src="./images/schets-v1.png" width="500">
+<img src="./images/schets-v1.png" >
 
 ### Toelichting
 Hier heb ik een aantal ideeen voor mijn opdracht geschets.
@@ -40,5 +40,9 @@ CSS technieken zoals:
 - Ideen kiezen en breakdownschets maken
 - Eerste stukje proberen te coderen
 
+
+# Voortgang 1
+Stapje van de versie 
+Idee  vakjes met verschillende vuurwerken, dus met animatie en de vakken swipen met scroll-snap. 
 
 
