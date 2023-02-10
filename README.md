@@ -1,2 +1,22 @@
-# CSS to the Rescue @cmda-minor-web 2022 - 2023
+# Eindopdracht - Interactieve vuurwerkshow
+
+## Week 1 - Planning
+De opdracht die ik ga kiezen is de Interactieve vuurwerkshow.
+
+De CSS technieken die ik ga gebruiken zijn:
+- Prefer-color-scheme
+- Prefer reduced motion
+- Gradients 
+- Motion path 
+- 3D Transforms en animatie
+
+### Code uitdagingen:
+- Ik moet proberen om uit mijn comfortzone te gaan. Ik heb de neiging om dingen niet te probren die ik niet kan begrijpen of kan. Moet deze keer wel gaan doen.
+- Ik heb moeite om specifiek berekening te gebruiken in css, bijvoorbeeld met calc(). Ook heb ik moeite met de waardes van bijvoorbeeld box-shadows etc.
+
+
+
+## Eerste schetsen
+
+
 
