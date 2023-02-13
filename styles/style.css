@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --beige: hsl(34, 52%, 82%);
+    --dark-blue: #171230;
+    --white: white;
+    --black: rgb(32, 32, 33);
+}
+
+body {
+    /* height: 100vh; */
+    display: grid;
+    place-content: center;
+    background-color: var(--dark-blue);
+      
+}
+/* Container */
+main {
+   scroll-snap-type: x mandatory ;
+   /* overscroll-behavior-x: contain; */
+overflow-x: auto;
+   display: flex;
+ gap: 1.5em;
+   /* height: 500px; */
+    /* width: 60%;  */
+    /* scroll-padding: 0 50%; */
+}
+h1 {
+    color: var(--black)
+}
+
+/* Items */
+section {
+   
+    /* height: 30rem; */
+    scroll-snap-align: center;
+    block-size: 80vmin;
+    aspect-ratio: 1;
+    background-color: var(--white);
+}
