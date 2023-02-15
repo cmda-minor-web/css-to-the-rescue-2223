@@ -15,19 +15,23 @@ body {
     /* height: 100vh; */
     display: grid;
     place-content: center;
-    background-color: var(--dark-blue);
+    align-items: center;
+    width: 100%;
+    /* background-color: var(--dark-blue); */
       
 }
 /* Container */
 main {
+    padding: .5em;
+    place-self: center;
    scroll-snap-type: x mandatory ;
-   /* overscroll-behavior-x: contain; */
+  
 overflow-x: auto;
    display: flex;
  gap: 1.5em;
-   /* height: 500px; */
-    /* width: 60%;  */
-    /* scroll-padding: 0 50%; */
+
+    width: 80%; 
+    
 }
 h1 {
     color: var(--black)
@@ -35,10 +39,181 @@ h1 {
 
 /* Items */
 section {
-   
+    display: grid;
+    place-content: center;
+    background-color: var(--dark-blue);
+    border-radius: 2em;
     /* height: 30rem; */
     scroll-snap-align: center;
-    block-size: 80vmin;
+    block-size: 90vmin;
     aspect-ratio: 1;
-    background-color: var(--white);
+    /* background-color: var(--white); */
+   
 }
+
+/************************/
+/* SECTION 1 - PIXELART */
+/************************/
+section:nth-of-type(1) figure {
+    width: 1em;
+    aspect-ratio: 1;
+    background-color: hotpink;
+    box-shadow: 
+    0 0 0 blue,
+    1em 0 0 yellow,
+    2em 0 0 red,
+    3em 0 0 black,
+    4em 0 0 pink,
+    5em 0 0 purple,
+    6em 0 0 dodgerblue,
+    
+    0 1em 0 blue,
+    1em 1em 0 olive,
+    2em 1em 0 red,
+    3em 1em 0 turquoise,
+    4em 1em 0 pink,
+    5em 1em 0 white,
+    6em 1em 0 coral
+    ;
+
+    animation-name: pixels;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+
+/* section:nth-of-type(1) figure:hover { 
+
+    cursor: pointer;
+   box-shadow: 
+    0 0 0 blue,
+    1em 0 0 yellow,
+    2em 0 0 red,
+    3em 0 0 yellow,
+    4em 0 0 pink,
+    5em 0 0 purple,
+    6em 0 0 dodgerblue,
+    
+    0 1em 0 teal,
+    1em 1em 0 yellow,
+    2em 1em 0 red,
+    3em 1em 0 orange,
+    4em 1em 0 pink,
+    5em 1em 0 whitesmoke,
+    6em 1em 0 coral;
+  
+}*/
+
+
+@keyframes pixels {
+    0% {
+      box-shadow: 
+    0 0 0 hotpink,
+    1em 0 0 white,
+    2em 0 0 red,
+    3em 0 0 light blue,
+    4em 0 0 pink,
+    5em 0 0 purple,
+    6em 0 0 dodgerblue,
+    
+    0 1em 0 yellow,
+    1em 1em 0 darkviolet,
+    2em 1em 0 red,
+    3em 1em 0 teal,
+    4em 1em 0 pink,
+    5em 1em 0 white,
+    6em 1em 0 darkmagenta;  
+    }
+
+    20% {
+      box-shadow: 
+    0 0 0 lightgreen,
+    1em 0 0 yellow,
+    2em 0 0 lightskyblue,
+    3em 0 0 orangered,
+    4em 0 0 pink,
+    5em 0 0 purple,
+    6em 0 0 dodgerblue,
+    
+    0 1em 0 blue,
+    1em 1em 0 olive,
+    2em 1em 0 crimson,
+    3em 1em 0 turquoise,
+    4em 1em 0 lightgoldenrodyellow,
+    5em 1em 0 white,
+    6em 1em 0 coral;     
+    }
+    
+    30% {
+         box-shadow: 
+    0 0 0 blue,
+    1em 0 0 yellow,
+    2em 0 0 red,
+    3em 0 0 black,
+    4em 0 0 pink,
+    5em 0 0 purple,
+    6em 0 0 dodgerblue,
+    
+    0 1em 0 mediumaquamarine,
+    1em 1em 0 olive,
+    2em 1em 0 red,
+    3em 1em 0 turquoise,
+    4em 1em 0 pink,
+    5em 1em 0 lemonchiffon,
+    6em 1em 0 green;  
+    }
+
+    40%{
+         box-shadow: 
+    0 0 0 ivory,
+    1em 0 0 yellow,
+    2em 0 0 darkblue,
+    3em 0 0 black,
+    4em 0 0 pink,
+    5em 0 0 purple,
+    6em 0 0 dodgerblue,
+    
+    0 1em 0 blue,
+    1em 1em 0 olive,
+    2em 1em 0 yellow,
+    3em 1em 0 indigo,
+    4em 1em 0 hotpink,
+    5em 1em 0 white,
+    6em 1em 0 orange;  
+    }
+}
+/****************************/
+/* SECTION 2 - 3D ANIMATION */
+/****************************/
+section:nth-of-type(2) {
+    perspective: 1000px;
+    /* Hier zet je hoe ver een element kan gaan */
+}
+
+section:nth-of-type(2) figure {
+ width: 10em;
+
+ aspect-ratio: 1;
+ background-color: gold;
+ transform-style: preserve-3d;
+ /* Het wordt een 3d ruimte */
+ animation-name: draaien;
+ animation-duration: 2s;
+ animation-iteration-count: infinite;
+}
+
+@keyframes draaien {
+0% {
+    transform: rotateY(0turn);
+}
+100% {
+    transform: rotateY(1turn)
+}
+}
+
+
+
+
+
