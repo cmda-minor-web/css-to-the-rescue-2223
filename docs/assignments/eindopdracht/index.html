@@ -7,68 +7,237 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <h1>My Rubiks Cube</h1>
-    <h2>Door Stefan Radouane</h2>
+    <header>
+        <h1>The Impossible Cube</h1>
+        <h2>Door Stefan Radouane</h2>
+        <h3>Gemaakt voor CCS to the Rescue - 2023</h3>
+        <p>Level</p>
+    </header>
+
     <section>
-        <section>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>
+        <p>Correct!</p>
+
+        <section data-layer="1">
+            <input type="checkbox" name="box-puzzle" data-layer="1">
+            <input type="checkbox" name="box-puzzle" data-layer="1">
+            <input type="checkbox" name="box-puzzle" data-layer="1">
+            <input type="checkbox" name="box-puzzle" data-layer="1">
+            <input type="checkbox" name="box-puzzle" data-layer="1">
+            <input type="checkbox" name="box-puzzle" data-layer="1">
+        </section>    
+
+        <section data-layer="2" aria-current="2">
+            <input type="checkbox" name="box-puzzle">
+            <input type="checkbox" name="box-puzzle">
+            <input type="radio" name="box-puzzle">
+            <input type="checkbox" name="box-puzzle">
+            <input type="radio" name="box-puzzle">
+            <input type="radio" name="box-puzzle">
+        </section>        
+        <section data-layer="3">
+            <input type="checkbox" name="box-puzzle">
+            <input type="checkbox" name="box-puzzle">
+            <input type="checkbox" name="box-puzzle">
+            <input type="checkbox" name="box-puzzle">
+            <input type="checkbox" name="box-puzzle">
+            <input type="checkbox" name="box-puzzle">
+        </section>        
+        <section data-layer="4">
+            <input type="checkbox" name="box-puzzle">
+            <input type="checkbox" name="box-puzzle">
+            <input type="checkbox" name="box-puzzle">
+            <input type="checkbox" name="box-puzzle">
+            <input type="checkbox" name="box-puzzle">
+            <input type="checkbox" name="box-puzzle">
+        </section> 
+
     </section>
-    <input type="range" id="vertical" step="10" value="50" max="100" aria-orientation="vertical">
-    <input type="range" id="horizontal" value="50" max="100">
+
+    <section>
+        <p>Don't press me</p>
+        <input type="checkbox" name="end">
+    </section>
+
+
+        <article>
+            <!-- Top Front Left -->
+            <span>
+                <span data-color="green"></span>
+                <span data-color="red"></span>
+                <span data-color="yellow"></span>
+            </span>
+
+            <!-- Top Middle Left -->
+            <span>
+                <span data-color="red"></span>
+                <span data-color="yellow"></span>
+            </span>
+
+            <!-- Top Back Left -->
+            <span>
+                <span data-color="blue"></span>
+                <span data-color="red"></span>
+                <span data-color="yellow"></span>
+            </span>
+
+            <!-- Top Back Back -->
+            <span>
+                <span data-color="yellow"></span>
+                <span data-color="blue"></span>
+            </span>
+
+            <!-- Top Back Right -->
+            <span>
+                <span data-color="blue"></span>
+                <span data-color="orange"></span>
+                <span data-color="yellow"></span>
+            </span>
+
+            <!-- Top Middle Right -->
+            <span>
+                <span data-color="orange"></span>
+                <span data-color="yellow"></span>
+            </span>
+
+            <!-- Top Front Right -->
+            <span>
+                <span data-color="green"></span>
+                <span data-color="orange"></span>
+                <span data-color="yellow"></span>
+            </span>
+
+            <!-- Top Front Front -->
+            <span>
+                <span data-color="yellow"></span>
+                <span data-color="green"></span>
+            </span>
+
+             <!-- Top Middle Middle -->
+             <span>
+                <span data-color="yellow"></span>
+            </span>
+
+
+            <!-- Middle Front Left -->
+            <span>
+                <span data-color="green"></span>
+                <span data-color="red"></span>
+            </span>
+
+            <!-- Middle Middle Left -->
+            <span>
+                <span data-color="red"></span>
+            </span>
+
+            <!-- Middle Back Left -->
+            <span>
+                <span data-color="blue"></span>
+                <span data-color="red"></span>
+            </span>
+
+
+            <!-- Middle Back Back -->
+            <span>
+                <span data-color="blue"></span>
+            </span>
+
+            <!-- Middle Back Right -->
+            <span>
+                <span data-color="blue"></span>
+                <span data-color="orange"></span>
+            </span>
+
+            <!-- Middle Middle Right -->
+            <span>
+                <span data-color="orange"></span>
+            </span>
+
+            <!-- Middle Front Right -->
+            <span>
+                <span data-color="green"></span>
+                <span data-color="orange"></span>
+            </span>
+
+            <!-- Middle Front Front -->
+            <span>
+                <span data-color="green"></span>
+            </span>
+
+             <!-- Bottom Front Left -->
+             <span>
+                <span data-color="green"></span>
+                <span data-color="red"></span>
+                <span data-color="white"></span>
+            </span>
+
+            <!-- Bottom Middle Left -->
+            <span>
+                <span data-color="red"></span>
+                <span data-color="white"></span>
+            </span>
+
+            <!-- Bottom Back Left -->
+            <span>
+                <span data-color="blue"></span>
+                <span data-color="red"></span>
+                <span data-color="white"></span>
+            </span>
+
+            <!-- Bottom Back Back -->
+            <span>
+                <span data-color="white"></span>
+                <span data-color="blue"></span>
+            </span>
+
+            <!-- Bottom Back Right -->
+            <span>
+                <span data-color="blue"></span>
+                <span data-color="orange"></span>
+                <span data-color="white"></span>
+            </span>
+
+            <!-- Bottom Middle Right -->
+            <span>
+                <span data-color="orange"></span>
+                <span data-color="white"></span>
+            </span>
+
+            <!-- Bottom Front Right -->
+            <span>
+                <span data-color="green"></span>
+                <span data-color="orange"></span>
+                <span data-color="white"></span>
+            </span>
+
+            <!-- Bottom Front Front -->
+            <span>
+                <span data-color="white"></span>
+                <span data-color="green"></span>
+            </span>
+
+             <!-- Bottom Middle Middle -->
+             <span>
+                <span data-color="white"></span>
+            </span>
+
+
+
+
+
+
+
+        </article>
+    <!-- </section> -->
+    <!-- <input type="range" id="vertical" step="10" value="50" max="100" aria-orientation="vertical"> -->
+    <!-- <input type="range" id="horizontal" value="50" max="100"> -->
+
+    <dialog>
+        <h2>Goal:</h2>
+        <p>This cube is impossible... Not to solve, but in reality.</p>
+        <p>Solve the cube with the tools you got.</p>
+        <p>Good Luck!</p>
+    </dialog>
+    <input type="checkbox" name="levelup" style="position: absolute; left: 0;">
     <script src="../consoles/slider/slider.js"></script>
 </body>
 </html>
