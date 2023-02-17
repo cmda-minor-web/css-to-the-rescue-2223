@@ -43,6 +43,38 @@ CSS technieken zoals:
 
 # Voortgang 1
 Stapje van de versie 
-Idee  vakjes met verschillende vuurwerken, dus met animatie en de vakken swipen met scroll-snap. 
+Idee  vakjes met verschillende vuurwerken, dus met animatie en de vakken swipen met scroll-snap. En andere css technieken proberen
 
 
+---
+# Week 2
+Na de eerste voortganggesprek heb ik meer onderzoek gedaan aan verschillende css technieken die ik kan gebruiken voor mij vuurwerk showcase. Alleen ik moest nog leren hoe ze werken. Dus ik probeer bij elke vakje, een css techniek toepassen en elke keer opbouwen als ik nieuwe dingen leert. 
+
+Wat ik heb geleerd waren:
+- 3D CSS Animatie
+- De werking van CSS gradients.
+- Geanimeerde pixels
+- Werken met :has() selectors
+
+
+### Eerste CSS Animatie 
+Om animatie in css te maken, gebruiken we `@keyframes`. Zoals bij animaties programmas bepaal je aantal keyframes en je zeg het wat moet 
+gebeuren. 
+
+<img src="./images/eerste-experimenten.png">
+Hier ben ik begonnen met ik begonnen met de eerste tween animaties voor mijn interactieve vuurwerkshows. Het zijn animatie die ik heb geleerd tijdens de thema sessie van Sanne. 
+
+Bij de eerste section heb ik een soort van pixel animatie maken met behulp van box-shadows. Daarna probeer ik de box-shadow te animeren met @keyframes. 
+
+Bij de tweede section heb ik de vierkant op een 3D ruimte gedraaid. Ik heb de property `transform-style: preserve-3d` gebruikt bij. Dus wanneer ik de `transform` property gebruikt het gebeurd het allemaal in een driedimensionale ruimte. Dus bij de tweede section heb je een flip effect met de rotate bij de X-Axis.
+
+
+### 3D transform
+<img src="./images/3d-animatie.png">
+
+Verder heb ik een beetje gespeeld met 3D Animatie. Ik heb verschillende properties geprobeerd, zoals  `perspective`, `transform-style: preserver-3d` en `transform-origin`. 
+
+Ik wil het een beetje interactief maken dat en ik heb de has selector gebruikt.
+
+
+# Voortgang 2
