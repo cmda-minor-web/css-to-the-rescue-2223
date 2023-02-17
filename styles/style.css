@@ -445,9 +445,9 @@ section:nth-of-type(3) article:nth-of-type(3) figure {
 /*************/
 /* Gradients */
 section:nth-of-type(4) {
-    background-image: linear-gradient(  purple, deeppink, orange );
+    background-image: linear-gradient(purple, deeppink, orange);
     background-position: left top;
-    animation: draaiende-gradient 2s linear infinite ;
+    animation: draaiende-gradient 2s linear infinite;
     background-size: 500% 500%;
 }
 
@@ -486,17 +486,30 @@ section:nth-of-type(4) {
 
 
 section:nth-of-type(4) figure {
-width: 5em;
-height: 5em;
-aspect-ratio: 1;
-border-radius: 50%;
-/* background-image: radial-gradient(crimson 0% 10%, yellow 10% 20%,  lime 20% 30%, dodgerblue 30% 40%, purple 40% 50%,crimson 60% 70%,
+    width: 5em;
+    height: 5em;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    /* background-image: radial-gradient(crimson 0% 10%, yellow 10% 20%,  lime 20% 30%, dodgerblue 30% 40%, purple 40% 50%,crimson 60% 70%,
     yellow 70% 80%,
     lime 80% 90%,
     dodgerblue 90% 100%); */
 
-    background-image: radial-gradient(crimson, yellow , lime , dodgerblue , purple, crimson,
-                yellow,
-                lime,
-                dodgerblue);
+    background-image: radial-gradient(crimson, yellow, lime, dodgerblue, purple, crimson,
+            yellow,
+            lime,
+            dodgerblue);
+    animation: rainbow 1s infinite linear;
+
+    background-size: 200% 200%;
+}
+
+@keyframes rainbow {
+    50% {
+        background-image: dodgerblue, crimson, yellow, lime, dodgerblue, purple, crimson, yellow, lime;
+    }
+
+    100% {
+        background-image: lime, dodgerblue, purple, crimson, yellow, lime, dodgerblue, purple, crimson, yellow;
+    }
 }
